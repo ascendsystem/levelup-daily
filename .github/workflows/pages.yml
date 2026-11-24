@@ -37,14 +37,16 @@ jobs:
           import json, pathlib, shutil
           from urllib.parse import urlparse
           site = json.loads(pathlib.Path("site.json").read_text(encoding="utf-8"))
-          ads = site.get("adsense", {})
           base = str(site.get("base_url", "")).rstrip("/")
           parsed = urlparse(base)
           public = parsed.scheme == "https" and parsed.netloc and "." in parsed.netloc and not any(x in base.lower() for x in ("tu-usuario", "example.com", "localhost", "pendiente"))
-          configured = ads.get("mode") in ("review", "active") and ads.get("publisher_id_confirmed") is True
-          if public and configured and pathlib.Path("ads.txt").is_file():
-              shutil.copy2("ads.txt", "_site/ads.txt")
+          if public:
+              ads_txt = pathlib.Path("ads.txt")
+              if not ads_txt.is_file():
+                  raise SystemExit("Falta ads.txt en la raíz del proyecto.")
+              shutil.copy2(ads_txt, "_site/ads.txt")
           PY
+          test -f _site/ads.txt
           python scripts/audit_pages.py _site
       - uses: actions/upload-pages-artifact@v4
         with:
