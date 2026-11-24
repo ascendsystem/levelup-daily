@@ -1,0 +1,33 @@
+{
+  "name": "LEVELUP DAILY",
+  "tagline": "Todo lo que juega, importa.",
+  "base_url": "https://ascendsystem.github.io/levelup-daily",
+  "publisher": "LEVELUP DAILY",
+  "author": "Redacción LEVELUP DAILY",
+  "contact_email": "PENDIENTE-COMPLETAR",
+  "owner": "PENDIENTE: nombre del titular",
+  "company": "PENDIENTE: empresa (si procede)",
+  "tax_id": "PENDIENTE: NIF",
+  "address": "PENDIENTE: domicilio",
+  "domain": "PENDIENTE: dominio definitivo",
+  "google_search_console_verification": "",
+  "google_analytics_id": "",
+  "adsense_publisher_id": "",
+  "adsense": {
+    "mode": "off",
+    "publisher_id_confirmed": false,
+    "units": {
+      "home_mid": "",
+      "home_after_headlines": "",
+      "category_mid": "",
+      "article_after_first_section": "",
+      "article_mid": ""
+    },
+    "privacy": {
+      "certified_tcf_cmp_confirmed": false,
+      "integration_file": "content/adsense-cmp.html",
+      "preferences_entrypoint_confirmed": false,
+      "preferences_file": "content/adsense-cmp-preferences.html"
+    }
+  }
+}

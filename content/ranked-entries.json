@@ -1,0 +1,542 @@
+{
+  "mejores-juegos-ps5": [
+    {
+      "title": "God of War Ragnarök",
+      "body": "Aventura guiada de gran escala, combate cercano y una relación entre Kratos y Atreus que sostiene el viaje. Buena opción si quieres una campaña cinematográfica y un mundo nórdico para explorar.",
+      "photo_needed": "FOTO GOD OF WAR RAGNARÖK — Kratos y Atreus en una captura de juego de PS5.",
+      "filename": "god-of-war-ragnarok-ps5.webp",
+      "image": "assets/images/stock/castle.webp",
+      "image_alt": "Foto temática de un castillo medieval rodeado de bosque; no es una captura del juego o anime citado.",
+      "image_caption": "Foto temática de un castillo medieval rodeado de bosque. No es material oficial del título.",
+      "image_source": "https://www.pexels.com/photo/medieval-castle-surrounded-by-dense-forest-30739205/",
+      "image_credit": "swuf . / Pexels"
+    },
+    {
+      "title": "Marvel’s Spider-Man 2",
+      "body": "Su balanceo rápido convierte Nueva York en una parte central de la partida. Alterna entre Peter y Miles, y combina misiones de historia con actividades cortas por la ciudad.",
+      "image": "assets/images/covers/ps5-featured.webp",
+      "image_alt": "Spider-Man en una imagen promocional del juego para PS5.",
+      "image_caption": "Imagen de Marvel’s Spider-Man 2."
+    },
+    {
+      "title": "Final Fantasy VII Rebirth",
+      "body": "Un RPG de aventura con un grupo amplio, combates de acción y un recorrido que amplía la reinterpretación de Final Fantasy VII. Conviene conocer Remake antes de empezar.",
+      "photo_needed": "FOTO FINAL FANTASY VII REBIRTH — Cloud y su grupo en una captura del juego.",
+      "filename": "final-fantasy-vii-rebirth.webp",
+      "image": "assets/images/stock/anime-convention.webp",
+      "image_alt": "Foto temática de una persona disfrazada en una convención de anime; no es una captura del juego o anime citado.",
+      "image_caption": "Foto temática de una persona disfrazada en una convención de anime. No es material oficial del título.",
+      "image_source": "https://www.pexels.com/photo/anime-character-cosplay-in-indoor-convention-36830644/",
+      "image_credit": "Hendy Wicaksono / Pexels"
+    },
+    {
+      "title": "Elden Ring",
+      "body": "Exploración libre, jefes exigentes y opciones para regresar más tarde a un desafío. Es la elección de esta lista para quien disfruta aprender el mapa sin que el juego marque cada paso.",
+      "photo_needed": "FOTO ELDEN RING — el Sinluz ante un paisaje o jefe de las Tierras Intermedias.",
+      "filename": "elden-ring.webp",
+      "image": "assets/images/stock/castle.webp",
+      "image_alt": "Foto temática de un castillo medieval rodeado de bosque; no es una captura del juego o anime citado.",
+      "image_caption": "Foto temática de un castillo medieval rodeado de bosque. No es material oficial del título.",
+      "image_source": "https://www.pexels.com/photo/medieval-castle-surrounded-by-dense-forest-30739205/",
+      "image_credit": "swuf . / Pexels"
+    },
+    {
+      "title": "Horizon Forbidden West",
+      "body": "Aloy recorre un mundo de máquinas y ruinas, con herramientas para preparar cada enfrentamiento. Sus opciones de dificultad y asistencia permiten adaptar el ritmo.",
+      "photo_needed": "FOTO HORIZON FORBIDDEN WEST — Aloy frente a una máquina en una captura de PS5.",
+      "filename": "horizon-forbidden-west-ps5.webp",
+      "image": "assets/images/stock/game-screen.webp",
+      "image_alt": "Foto temática de un ordenador con un videojuego en pantalla; no es una captura del juego o anime citado.",
+      "image_caption": "Foto temática de un ordenador con un videojuego en pantalla. No es material oficial del título.",
+      "image_source": "https://www.pexels.com/photo/a-computer-displaying-a-game-19012036/",
+      "image_credit": "Matheus Bertelli / Pexels"
+    },
+    {
+      "title": "Baldur’s Gate 3",
+      "body": "Diálogos, decisiones y combate táctico hacen que una partida pueda seguir caminos distintos. Brilla cuando el jugador quiere experimentar con el grupo y sus habilidades.",
+      "photo_needed": "FOTO BALDUR’S GATE 3 — grupo de aventureros durante una conversación o combate.",
+      "filename": "baldurs-gate-3.webp",
+      "image": "assets/images/stock/castle.webp",
+      "image_alt": "Foto temática de un castillo medieval rodeado de bosque; no es una captura del juego o anime citado.",
+      "image_caption": "Foto temática de un castillo medieval rodeado de bosque. No es material oficial del título.",
+      "image_source": "https://www.pexels.com/photo/medieval-castle-surrounded-by-dense-forest-30739205/",
+      "image_credit": "swuf . / Pexels"
+    },
+    {
+      "title": "Astro Bot",
+      "body": "Plataformas compactas con controles precisos y niveles que introducen ideas nuevas con frecuencia. Es una recomendación para quien prefiere sesiones alegres y directas.",
+      "photo_needed": "FOTO ASTRO BOT — Astro en un nivel de plataformas de PS5.",
+      "filename": "astro-bot-ps5.webp",
+      "image": "assets/images/stock/game-controller.webp",
+      "image_alt": "Foto temática de un mando de videojuegos en las manos de un jugador; no es una captura del juego o anime citado.",
+      "image_caption": "Foto temática de un mando de videojuegos en las manos de un jugador. No es material oficial del título.",
+      "image_source": "https://www.pexels.com/photo/a-person-with-a-game-controller-12718836/",
+      "image_credit": "ROMAN ODINTSOV / Pexels"
+    },
+    {
+      "title": "Gran Turismo 7",
+      "body": "Carreras, coches y pruebas para aprender trazadas con calma o buscar tiempos competitivos. Comprueba qué funciones requieren conexión y qué periféricos quieres usar.",
+      "photo_needed": "FOTO GRAN TURISMO 7 — un coche reconocible en carrera sobre una pista del juego.",
+      "filename": "gran-turismo-7-ps5.webp",
+      "image": "assets/images/stock/sports-car.webp",
+      "image_alt": "Foto temática de un coche deportivo azul en una calle de noche; no es una captura del juego o anime citado.",
+      "image_caption": "Foto temática de un coche deportivo azul en una calle de noche. No es material oficial del título.",
+      "image_source": "https://www.pexels.com/photo/sports-car-in-industrial-street-at-night-31779008/",
+      "image_credit": "Michał Robak / Pexels"
+    },
+    {
+      "title": "Helldivers 2",
+      "body": "Misiones cooperativas donde apuntar y coordinarse importan tanto como elegir el equipo. Funciona especialmente bien con amistades que disfrutan de planes que se tuercen.",
+      "photo_needed": "FOTO HELLDIVERS 2 — escuadra de cuatro jugadores en una misión, con la interfaz del juego.",
+      "filename": "helldivers-2.webp",
+      "image": "assets/images/stock/game-screen.webp",
+      "image_alt": "Foto temática de un ordenador con un videojuego en pantalla; no es una captura del juego o anime citado.",
+      "image_caption": "Foto temática de un ordenador con un videojuego en pantalla. No es material oficial del título.",
+      "image_source": "https://www.pexels.com/photo/a-computer-displaying-a-game-19012036/",
+      "image_credit": "Matheus Bertelli / Pexels"
+    },
+    {
+      "title": "Street Fighter 6",
+      "body": "Una puerta de entrada sólida a la lucha gracias a sus controles alternativos y herramientas de entrenamiento. Puedes aprender movimientos y enfrentarte a otros jugadores de forma gradual.",
+      "photo_needed": "FOTO STREET FIGHTER 6 — Ryu o Chun-Li en una ronda de combate del juego.",
+      "filename": "street-fighter-6-ps5.webp",
+      "image": "assets/images/stock/retro-controller.webp",
+      "image_alt": "Foto temática de un mando retro en las manos de un jugador; no es una captura del juego o anime citado.",
+      "image_caption": "Foto temática de un mando retro en las manos de un jugador. No es material oficial del título.",
+      "image_source": "https://www.pexels.com/photo/person-holding-a-vintage-game-console-controller-8885396/",
+      "image_credit": "MART PRODUCTION / Pexels"
+    }
+  ],
+  "mejores-juegos-mundo-abierto-pc": [
+    {
+      "title": "Elden Ring",
+      "body": "La curiosidad guía una aventura de fantasía con jefes que se pueden dejar para más tarde. Ideal para quien quiere explorar con poca señalización.",
+      "photo_needed": "FOTO ELDEN RING — el Sinluz explorando las Tierras Intermedias.",
+      "filename": "elden-ring.webp",
+      "image": "assets/images/stock/castle.webp",
+      "image_alt": "Foto temática de un castillo medieval rodeado de bosque; no es una captura del juego o anime citado.",
+      "image_caption": "Foto temática de un castillo medieval rodeado de bosque. No es material oficial del título.",
+      "image_source": "https://www.pexels.com/photo/medieval-castle-surrounded-by-dense-forest-30739205/",
+      "image_credit": "swuf . / Pexels"
+    },
+    {
+      "title": "Baldur’s Gate 3",
+      "body": "Un mundo reactivo donde conversaciones, decisiones y las habilidades del grupo abren caminos diferentes.",
+      "photo_needed": "FOTO BALDUR’S GATE 3 — grupo de aventureros en una escena reconocible del juego.",
+      "filename": "baldurs-gate-3.webp",
+      "image": "assets/images/stock/castle.webp",
+      "image_alt": "Foto temática de un castillo medieval rodeado de bosque; no es una captura del juego o anime citado.",
+      "image_caption": "Foto temática de un castillo medieval rodeado de bosque. No es material oficial del título.",
+      "image_source": "https://www.pexels.com/photo/medieval-castle-surrounded-by-dense-forest-30739205/",
+      "image_credit": "swuf . / Pexels"
+    },
+    {
+      "title": "The Witcher 3: Wild Hunt",
+      "body": "Sus contratos y misiones secundarias convierten cada desvío en una historia; funciona para quien prioriza personajes y ambientación.",
+      "photo_needed": "FOTO THE WITCHER 3 — Geralt frente a un monstruo o recorriendo el Continente.",
+      "filename": "the-witcher-3.webp",
+      "image": "assets/images/stock/castle.webp",
+      "image_alt": "Foto temática de un castillo medieval rodeado de bosque; no es una captura del juego o anime citado.",
+      "image_caption": "Foto temática de un castillo medieval rodeado de bosque. No es material oficial del título.",
+      "image_source": "https://www.pexels.com/photo/medieval-castle-surrounded-by-dense-forest-30739205/",
+      "image_credit": "swuf . / Pexels"
+    },
+    {
+      "title": "No Man’s Sky",
+      "body": "Explora planetas, construye y fija objetivos propios en una experiencia que se presta a volver por temporadas.",
+      "photo_needed": "FOTO NO MAN’S SKY — una nave y un paisaje alienígena capturados dentro del juego.",
+      "filename": "no-mans-sky.webp",
+      "image": "assets/images/stock/galaxy.webp",
+      "image_alt": "Foto temática de una nebulosa y estrellas; no es una captura del juego o anime citado.",
+      "image_caption": "Foto temática de una nebulosa y estrellas. No es material oficial del título.",
+      "image_source": "https://www.pexels.com/photo/photo-of-galaxy-2832071/",
+      "image_credit": "Felix Mittermeier / Pexels"
+    },
+    {
+      "title": "Subnautica",
+      "body": "La exploración submarina depende de ampliar el equipo y atreverse a bajar a zonas más profundas. El descubrimiento sostiene su tensión.",
+      "photo_needed": "FOTO SUBNAUTICA — vehículo o base bajo el agua junto a fauna marina.",
+      "filename": "subnautica.webp",
+      "image": "assets/images/stock/underwater.webp",
+      "image_alt": "Foto temática de buzos explorando un arrecife de coral; no es una captura del juego o anime citado.",
+      "image_caption": "Foto temática de buzos explorando un arrecife de coral. No es material oficial del título.",
+      "image_source": "https://www.pexels.com/photo/people-scuba-diving-in-tropical-waters-and-swimming-among-fish-and-coral-reef-13085964/",
+      "image_credit": "Alain Margreve / Pexels"
+    },
+    {
+      "title": "Valheim",
+      "body": "Supervivencia cooperativa con progresión por biomas, construcción y preparación antes de luchar contra cada jefe.",
+      "photo_needed": "FOTO VALHEIM — base vikinga y paisaje de uno de sus biomas.",
+      "filename": "valheim.webp",
+      "image": "assets/images/stock/castle.webp",
+      "image_alt": "Foto temática de un castillo medieval rodeado de bosque; no es una captura del juego o anime citado.",
+      "image_caption": "Foto temática de un castillo medieval rodeado de bosque. No es material oficial del título.",
+      "image_source": "https://www.pexels.com/photo/medieval-castle-surrounded-by-dense-forest-30739205/",
+      "image_credit": "swuf . / Pexels"
+    },
+    {
+      "title": "Red Dead Redemption 2",
+      "body": "Una frontera detallada y una historia de banda invitan a recorrer el mundo sin correr de misión en misión.",
+      "photo_needed": "FOTO RED DEAD REDEMPTION 2 — Arthur Morgan en el paisaje del juego.",
+      "filename": "red-dead-redemption-2.webp",
+      "image": "assets/images/stock/western.webp",
+      "image_alt": "Foto temática de un jinete a caballo en un paisaje desértico; no es una captura del juego o anime citado.",
+      "image_caption": "Foto temática de un jinete a caballo en un paisaje desértico. No es material oficial del título.",
+      "image_source": "https://www.pexels.com/photo/cowboy-riding-his-horse-in-the-desert-21716146/",
+      "image_credit": "Anya Juarez Tenorio / Pexels"
+    },
+    {
+      "title": "Forza Horizon 5",
+      "body": "Un mapa amplio convierte la conducción en una forma de explorar y encontrar eventos a tu ritmo.",
+      "photo_needed": "FOTO FORZA HORIZON 5 — un coche en una carrera o ruta de México dentro del juego.",
+      "filename": "forza-horizon-5.webp",
+      "image": "assets/images/stock/sports-car.webp",
+      "image_alt": "Foto temática de un coche deportivo azul en una calle de noche; no es una captura del juego o anime citado.",
+      "image_caption": "Foto temática de un coche deportivo azul en una calle de noche. No es material oficial del título.",
+      "image_source": "https://www.pexels.com/photo/sports-car-in-industrial-street-at-night-31779008/",
+      "image_credit": "Michał Robak / Pexels"
+    },
+    {
+      "title": "Cyberpunk 2077",
+      "body": "Night City combina misiones narrativas con una ciudad densa; distintas configuraciones alteran el combate y la forma de afrontar encuentros.",
+      "photo_needed": "FOTO CYBERPUNK 2077 — V recorriendo una calle reconocible de Night City.",
+      "filename": "cyberpunk-2077.webp",
+      "image": "assets/images/stock/neon-city.webp",
+      "image_alt": "Foto temática de una calle urbana iluminada de noche; no es una captura del juego o anime citado.",
+      "image_caption": "Foto temática de una calle urbana iluminada de noche. No es material oficial del título.",
+      "image_source": "https://www.pexels.com/photo/illuminated-city-street-at-night-11534563/",
+      "image_credit": "Bekir Donmez / Pexels"
+    },
+    {
+      "title": "Ghost of Tsushima Director’s Cut",
+      "body": "La exploración de la isla y sus señales visuales conectan el mundo abierto con el combate de samuráis. La versión para PC permite ajustar la experiencia al equipo.",
+      "image": "assets/images/covers/pc-recent-games.webp",
+      "image_alt": "Samurái en una escena promocional de Ghost of Tsushima Director’s Cut.",
+      "image_caption": "Imagen de Ghost of Tsushima Director’s Cut."
+    }
+  ],
+  "juegos-mejores-historias": [
+    {
+      "title": "The Last of Us Part I",
+      "body": "Viaje centrado en Joel y Ellie, con una relación que cambia mientras atraviesan un mundo peligroso. Mejor entrar con pocos detalles de la trama.",
+      "image": "assets/images/covers/playstation-exclusives.webp",
+      "image_alt": "Ellie en una escena de The Last of Us.",
+      "image_caption": "Imagen de The Last of Us Part I."
+    },
+    {
+      "title": "Red Dead Redemption 2",
+      "body": "La vida de una banda en declive se convierte en una historia sobre lealtad, culpa y cambio.",
+      "photo_needed": "FOTO RED DEAD REDEMPTION 2 — Arthur Morgan y la banda en una escena de historia.",
+      "filename": "red-dead-redemption-2.webp",
+      "image": "assets/images/stock/western.webp",
+      "image_alt": "Foto temática de un jinete a caballo en un paisaje desértico; no es una captura del juego o anime citado.",
+      "image_caption": "Foto temática de un jinete a caballo en un paisaje desértico. No es material oficial del título.",
+      "image_source": "https://www.pexels.com/photo/cowboy-riding-his-horse-in-the-desert-21716146/",
+      "image_credit": "Anya Juarez Tenorio / Pexels"
+    },
+    {
+      "title": "Life is Strange",
+      "body": "Decisiones y amistades adolescentes conducen una historia episódica sobre memoria y consecuencias.",
+      "photo_needed": "FOTO LIFE IS STRANGE — Max y Chloe en una escena reconocible del primer juego.",
+      "filename": "life-is-strange.webp",
+      "image": "assets/images/stock/campus.webp",
+      "image_alt": "Foto temática de una persona caminando por un campus universitario; no es una captura del juego o anime citado.",
+      "image_caption": "Foto temática de una persona caminando por un campus universitario. No es material oficial del título.",
+      "image_source": "https://www.pexels.com/photo/university-campus-scene-with-student-walking-33327129/",
+      "image_credit": "Ritesh Singh / Pexels"
+    },
+    {
+      "title": "Disco Elysium",
+      "body": "La investigación avanza a través de conversaciones y de las voces internas del protagonista; sus decisiones afectan al tono y al rumbo.",
+      "photo_needed": "FOTO DISCO ELYSIUM — el detective en Martinaise con el estilo visual del juego.",
+      "filename": "disco-elysium.webp",
+      "image": "assets/images/stock/neon-city.webp",
+      "image_alt": "Foto temática de una calle urbana iluminada de noche; no es una captura del juego o anime citado.",
+      "image_caption": "Foto temática de una calle urbana iluminada de noche. No es material oficial del título.",
+      "image_source": "https://www.pexels.com/photo/illuminated-city-street-at-night-11534563/",
+      "image_credit": "Bekir Donmez / Pexels"
+    },
+    {
+      "title": "Baldur’s Gate 3",
+      "body": "Una campaña de rol donde el grupo, los diálogos y las decisiones cambian situaciones y relaciones.",
+      "photo_needed": "FOTO BALDUR’S GATE 3 — protagonistas durante una escena de diálogo o exploración.",
+      "filename": "baldurs-gate-3.webp",
+      "image": "assets/images/stock/castle.webp",
+      "image_alt": "Foto temática de un castillo medieval rodeado de bosque; no es una captura del juego o anime citado.",
+      "image_caption": "Foto temática de un castillo medieval rodeado de bosque. No es material oficial del título.",
+      "image_source": "https://www.pexels.com/photo/medieval-castle-surrounded-by-dense-forest-30739205/",
+      "image_credit": "swuf . / Pexels"
+    },
+    {
+      "title": "Mass Effect Legendary Edition",
+      "body": "Una saga de ciencia ficción que conserva la continuidad de decisiones entre sus tres campañas principales.",
+      "photo_needed": "FOTO MASS EFFECT LEGENDARY EDITION — Shepard y la tripulación de la Normandy.",
+      "filename": "mass-effect-legendary-edition.webp",
+      "image": "assets/images/stock/galaxy.webp",
+      "image_alt": "Foto temática de una nebulosa y estrellas; no es una captura del juego o anime citado.",
+      "image_caption": "Foto temática de una nebulosa y estrellas. No es material oficial del título.",
+      "image_source": "https://www.pexels.com/photo/photo-of-galaxy-2832071/",
+      "image_credit": "Felix Mittermeier / Pexels"
+    },
+    {
+      "title": "The Witcher 3: Wild Hunt",
+      "body": "La historia principal y los encargos secundarios presentan dilemas donde no siempre existe una salida limpia.",
+      "photo_needed": "FOTO THE WITCHER 3 — Geralt en una conversación o contrato del juego.",
+      "filename": "the-witcher-3.webp",
+      "image": "assets/images/stock/castle.webp",
+      "image_alt": "Foto temática de un castillo medieval rodeado de bosque; no es una captura del juego o anime citado.",
+      "image_caption": "Foto temática de un castillo medieval rodeado de bosque. No es material oficial del título.",
+      "image_source": "https://www.pexels.com/photo/medieval-castle-surrounded-by-dense-forest-30739205/",
+      "image_credit": "swuf . / Pexels"
+    },
+    {
+      "title": "Outer Wilds",
+      "body": "El conocimiento del jugador es la progresión: descubrir una pista puede cambiar cómo entiendes todo el sistema solar.",
+      "photo_needed": "FOTO OUTER WILDS — el astronauta explorando uno de los planetas, sin revelar un giro.",
+      "filename": "outer-wilds.webp",
+      "image": "assets/images/stock/galaxy.webp",
+      "image_alt": "Foto temática de una nebulosa y estrellas; no es una captura del juego o anime citado.",
+      "image_caption": "Foto temática de una nebulosa y estrellas. No es material oficial del título.",
+      "image_source": "https://www.pexels.com/photo/photo-of-galaxy-2832071/",
+      "image_credit": "Felix Mittermeier / Pexels"
+    },
+    {
+      "title": "Journey",
+      "body": "Un viaje breve con comunicación casi sin palabras y un ritmo visual que transmite compañía y distancia.",
+      "photo_needed": "FOTO JOURNEY — el viajero rojo frente a las dunas del juego.",
+      "filename": "journey.webp",
+      "image": "assets/images/stock/desert.webp",
+      "image_alt": "Foto temática de dunas de arena bajo el cielo del atardecer; no es una captura del juego o anime citado.",
+      "image_caption": "Foto temática de dunas de arena bajo el cielo del atardecer. No es material oficial del título.",
+      "image_source": "https://www.pexels.com/photo/a-desert-landscape-with-sand-dunes-and-a-sky-14750492/",
+      "image_credit": "Kadir Avşar / Pexels"
+    },
+    {
+      "title": "God of War Ragnarök",
+      "body": "Combate, mitología y la relación entre padre e hijo se cruzan en una aventura sobre responsabilidad y cambio.",
+      "photo_needed": "FOTO GOD OF WAR RAGNARÖK — Kratos y Atreus durante una escena de la campaña.",
+      "filename": "god-of-war-ragnarok-ps5.webp",
+      "image": "assets/images/stock/castle.webp",
+      "image_alt": "Foto temática de un castillo medieval rodeado de bosque; no es una captura del juego o anime citado.",
+      "image_caption": "Foto temática de un castillo medieval rodeado de bosque. No es material oficial del título.",
+      "image_source": "https://www.pexels.com/photo/medieval-castle-surrounded-by-dense-forest-30739205/",
+      "image_credit": "swuf . / Pexels"
+    }
+  ],
+  "animes-mejor-valorados-crunchyroll": [
+    {
+      "title": "Attack on Titan",
+      "body": "Supervivencia y misterio amplían su escala a lo largo de varios arcos; conviene empezar por la primera temporada.",
+      "photo_needed": "FOTOGRAMA ATTACK ON TITAN — el Cuerpo de Exploración ante un titán, sin revelar el final.",
+      "filename": "attack-on-titan.webp",
+      "image": "assets/images/stock/anime-convention.webp",
+      "image_alt": "Foto temática de una persona disfrazada en una convención de anime; no es una captura del juego o anime citado.",
+      "image_caption": "Foto temática de una persona disfrazada en una convención de anime. No es material oficial del título.",
+      "image_source": "https://www.pexels.com/photo/anime-character-cosplay-in-indoor-convention-36830644/",
+      "image_credit": "Hendy Wicaksono / Pexels"
+    },
+    {
+      "title": "Fullmetal Alchemist: Brotherhood",
+      "body": "Aventura, humor y responsabilidad se sostienen en una historia de fantasía con principio y cierre.",
+      "photo_needed": "FOTOGRAMA FULLMETAL ALCHEMIST: BROTHERHOOD — Edward y Alphonse juntos.",
+      "filename": "fullmetal-alchemist-brotherhood.webp",
+      "image": "assets/images/stock/anime-convention.webp",
+      "image_alt": "Foto temática de una persona disfrazada en una convención de anime; no es una captura del juego o anime citado.",
+      "image_caption": "Foto temática de una persona disfrazada en una convención de anime. No es material oficial del título.",
+      "image_source": "https://www.pexels.com/photo/anime-character-cosplay-in-indoor-convention-36830644/",
+      "image_credit": "Hendy Wicaksono / Pexels"
+    },
+    {
+      "title": "Demon Slayer",
+      "body": "Combates de gran impacto visual acompañan una motivación familiar clara.",
+      "photo_needed": "FOTOGRAMA DEMON SLAYER — Tanjiro con su katana en una escena de combate.",
+      "filename": "demon-slayer.webp",
+      "image": "assets/images/stock/anime-convention.webp",
+      "image_alt": "Foto temática de una persona disfrazada en una convención de anime; no es una captura del juego o anime citado.",
+      "image_caption": "Foto temática de una persona disfrazada en una convención de anime. No es material oficial del título.",
+      "image_source": "https://www.pexels.com/photo/anime-character-cosplay-in-indoor-convention-36830644/",
+      "image_credit": "Hendy Wicaksono / Pexels"
+    },
+    {
+      "title": "Jujutsu Kaisen",
+      "body": "Acción sobrenatural y un grupo de personajes jóvenes sostienen un ritmo directo.",
+      "image": "assets/images/covers/anime-action-photo.webp",
+      "image_alt": "Yuji Itadori y otros personajes de Jujutsu Kaisen en una imagen promocional.",
+      "image_caption": "Imagen promocional de Jujutsu Kaisen."
+    },
+    {
+      "title": "Steins;Gate",
+      "body": "Una historia de ciencia ficción que convierte experimentos cotidianos en consecuencias cada vez más serias.",
+      "photo_needed": "FOTOGRAMA STEINS;GATE — Okabe y el grupo en el laboratorio.",
+      "filename": "steins-gate.webp",
+      "image": "assets/images/stock/manga-store.webp",
+      "image_alt": "Foto temática de estanterías de manga en una librería japonesa; no es una captura del juego o anime citado.",
+      "image_caption": "Foto temática de estanterías de manga en una librería japonesa. No es material oficial del título.",
+      "image_source": "https://www.pexels.com/photo/bookshelves-with-japanese-books-18848524/",
+      "image_credit": "AXP Photography / Pexels"
+    },
+    {
+      "title": "Cowboy Bebop",
+      "body": "Cazarrecompensas, jazz y episodios de aventura se combinan con la melancolía del pasado de sus protagonistas.",
+      "photo_needed": "FOTOGRAMA COWBOY BEBOP — Spike Spiegel y la tripulación de la Bebop.",
+      "filename": "cowboy-bebop.webp",
+      "image": "assets/images/stock/neon-city.webp",
+      "image_alt": "Foto temática de una calle urbana iluminada de noche; no es una captura del juego o anime citado.",
+      "image_caption": "Foto temática de una calle urbana iluminada de noche. No es material oficial del título.",
+      "image_source": "https://www.pexels.com/photo/illuminated-city-street-at-night-11534563/",
+      "image_credit": "Bekir Donmez / Pexels"
+    },
+    {
+      "title": "Frieren: Beyond Journey’s End",
+      "body": "La fantasía mira hacia lo que ocurre después de la gran aventura y cómo el tiempo transforma los vínculos.",
+      "photo_needed": "FOTOGRAMA FRIEREN — Frieren con Fern y Stark durante el viaje.",
+      "filename": "frieren-beyond-journeys-end.webp",
+      "image": "assets/images/stock/castle.webp",
+      "image_alt": "Foto temática de un castillo medieval rodeado de bosque; no es una captura del juego o anime citado.",
+      "image_caption": "Foto temática de un castillo medieval rodeado de bosque. No es material oficial del título.",
+      "image_source": "https://www.pexels.com/photo/medieval-castle-surrounded-by-dense-forest-30739205/",
+      "image_credit": "swuf . / Pexels"
+    },
+    {
+      "title": "Vinland Saga",
+      "body": "Una historia que parte de la venganza y abre preguntas sobre violencia, ambición y propósito.",
+      "photo_needed": "FOTOGRAMA VINLAND SAGA — Thorfinn en una escena de viaje o combate.",
+      "filename": "vinland-saga.webp",
+      "image": "assets/images/stock/castle.webp",
+      "image_alt": "Foto temática de un castillo medieval rodeado de bosque; no es una captura del juego o anime citado.",
+      "image_caption": "Foto temática de un castillo medieval rodeado de bosque. No es material oficial del título.",
+      "image_source": "https://www.pexels.com/photo/medieval-castle-surrounded-by-dense-forest-30739205/",
+      "image_credit": "swuf . / Pexels"
+    },
+    {
+      "title": "Kaguya-sama: Love Is War",
+      "body": "La comedia romántica convierte cada conversación entre sus protagonistas en un duelo de estrategias.",
+      "photo_needed": "FOTOGRAMA KAGUYA-SAMA: LOVE IS WAR — Kaguya y Miyuki en el consejo estudiantil.",
+      "filename": "kaguya-sama.webp",
+      "image": "assets/images/stock/manga-store.webp",
+      "image_alt": "Foto temática de estanterías de manga en una librería japonesa; no es una captura del juego o anime citado.",
+      "image_caption": "Foto temática de estanterías de manga en una librería japonesa. No es material oficial del título.",
+      "image_source": "https://www.pexels.com/photo/bookshelves-with-japanese-books-18848524/",
+      "image_credit": "AXP Photography / Pexels"
+    },
+    {
+      "title": "Spy x Family",
+      "body": "Espionaje, acción ligera y comedia familiar crean una puerta de entrada de episodios fáciles de seguir.",
+      "photo_needed": "FOTOGRAMA SPY X FAMILY — Loid, Yor y Anya en una escena familiar.",
+      "filename": "spy-x-family.webp",
+      "image": "assets/images/stock/anime-convention.webp",
+      "image_alt": "Foto temática de una persona disfrazada en una convención de anime; no es una captura del juego o anime citado.",
+      "image_caption": "Foto temática de una persona disfrazada en una convención de anime. No es material oficial del título.",
+      "image_source": "https://www.pexels.com/photo/anime-character-cosplay-in-indoor-convention-36830644/",
+      "image_credit": "Hendy Wicaksono / Pexels"
+    }
+  ],
+  "mejores-animes-accion": [
+    {
+      "title": "Fullmetal Alchemist: Brotherhood",
+      "body": "Combina combates con una aventura sobre las consecuencias de intentar cambiar las reglas del mundo.",
+      "photo_needed": "FOTOGRAMA FULLMETAL ALCHEMIST: BROTHERHOOD — los hermanos Elric en acción.",
+      "filename": "fullmetal-alchemist-brotherhood.webp",
+      "image": "assets/images/stock/anime-convention.webp",
+      "image_alt": "Foto temática de una persona disfrazada en una convención de anime; no es una captura del juego o anime citado.",
+      "image_caption": "Foto temática de una persona disfrazada en una convención de anime. No es material oficial del título.",
+      "image_source": "https://www.pexels.com/photo/anime-character-cosplay-in-indoor-convention-36830644/",
+      "image_credit": "Hendy Wicaksono / Pexels"
+    },
+    {
+      "title": "Demon Slayer",
+      "body": "Coreografías de espada y una motivación emocional clara marcan el ritmo de sus arcos.",
+      "photo_needed": "FOTOGRAMA DEMON SLAYER — Tanjiro en una secuencia de combate.",
+      "filename": "demon-slayer.webp",
+      "image": "assets/images/stock/anime-convention.webp",
+      "image_alt": "Foto temática de una persona disfrazada en una convención de anime; no es una captura del juego o anime citado.",
+      "image_caption": "Foto temática de una persona disfrazada en una convención de anime. No es material oficial del título.",
+      "image_source": "https://www.pexels.com/photo/anime-character-cosplay-in-indoor-convention-36830644/",
+      "image_credit": "Hendy Wicaksono / Pexels"
+    },
+    {
+      "title": "Jujutsu Kaisen",
+      "body": "Técnicas sobrenaturales y combates rápidos con un reparto coral.",
+      "image": "assets/images/covers/anime-action-photo.webp",
+      "image_alt": "Yuji Itadori en una imagen promocional de Jujutsu Kaisen.",
+      "image_caption": "Imagen promocional de Jujutsu Kaisen."
+    },
+    {
+      "title": "Hunter x Hunter (2011)",
+      "body": "Las reglas de poder hacen que la estrategia y el aprendizaje tengan tanto peso como la fuerza.",
+      "photo_needed": "FOTOGRAMA HUNTER X HUNTER — Gon y Killua durante una prueba o combate.",
+      "filename": "hunter-x-hunter.webp",
+      "image": "assets/images/stock/anime-convention.webp",
+      "image_alt": "Foto temática de una persona disfrazada en una convención de anime; no es una captura del juego o anime citado.",
+      "image_caption": "Foto temática de una persona disfrazada en una convención de anime. No es material oficial del título.",
+      "image_source": "https://www.pexels.com/photo/anime-character-cosplay-in-indoor-convention-36830644/",
+      "image_credit": "Hendy Wicaksono / Pexels"
+    },
+    {
+      "title": "My Hero Academia",
+      "body": "Un grupo de estudiantes entrena en una sociedad de superpoderes, con acción coral y crecimiento gradual.",
+      "photo_needed": "FOTOGRAMA MY HERO ACADEMIA — Deku y sus compañeros en una escena de entrenamiento.",
+      "filename": "my-hero-academia.webp",
+      "image": "assets/images/stock/anime-convention.webp",
+      "image_alt": "Foto temática de una persona disfrazada en una convención de anime; no es una captura del juego o anime citado.",
+      "image_caption": "Foto temática de una persona disfrazada en una convención de anime. No es material oficial del título.",
+      "image_source": "https://www.pexels.com/photo/anime-character-cosplay-in-indoor-convention-36830644/",
+      "image_credit": "Hendy Wicaksono / Pexels"
+    },
+    {
+      "title": "Mob Psycho 100",
+      "body": "Humor y crecimiento emocional acompañan estallidos de poder con una animación expresiva.",
+      "photo_needed": "FOTOGRAMA MOB PSYCHO 100 — Mob en una escena de poder psíquico.",
+      "filename": "mob-psycho-100.webp",
+      "image": "assets/images/stock/manga-store.webp",
+      "image_alt": "Foto temática de estanterías de manga en una librería japonesa; no es una captura del juego o anime citado.",
+      "image_caption": "Foto temática de estanterías de manga en una librería japonesa. No es material oficial del título.",
+      "image_source": "https://www.pexels.com/photo/bookshelves-with-japanese-books-18848524/",
+      "image_credit": "AXP Photography / Pexels"
+    },
+    {
+      "title": "One-Punch Man",
+      "body": "La parodia del héroe invencible no renuncia a peleas espectaculares ni a un elenco de héroes excéntricos.",
+      "photo_needed": "FOTOGRAMA ONE-PUNCH MAN — Saitama y Genos durante una escena de acción.",
+      "filename": "one-punch-man.webp",
+      "image": "assets/images/stock/anime-convention.webp",
+      "image_alt": "Foto temática de una persona disfrazada en una convención de anime; no es una captura del juego o anime citado.",
+      "image_caption": "Foto temática de una persona disfrazada en una convención de anime. No es material oficial del título.",
+      "image_source": "https://www.pexels.com/photo/anime-character-cosplay-in-indoor-convention-36830644/",
+      "image_credit": "Hendy Wicaksono / Pexels"
+    },
+    {
+      "title": "Chainsaw Man",
+      "body": "Una acción oscura y abrupta mezcla cacería de demonios con personajes de deseos muy cotidianos.",
+      "photo_needed": "FOTOGRAMA CHAINSAW MAN — Denji o Power en una escena de acción sin gore explícito.",
+      "filename": "chainsaw-man.webp",
+      "image": "assets/images/stock/anime-convention.webp",
+      "image_alt": "Foto temática de una persona disfrazada en una convención de anime; no es una captura del juego o anime citado.",
+      "image_caption": "Foto temática de una persona disfrazada en una convención de anime. No es material oficial del título.",
+      "image_source": "https://www.pexels.com/photo/anime-character-cosplay-in-indoor-convention-36830644/",
+      "image_credit": "Hendy Wicaksono / Pexels"
+    },
+    {
+      "title": "Samurai Champloo",
+      "body": "Duelos de espada y ritmo hip-hop acompañan un viaje episódico con personalidad propia.",
+      "photo_needed": "FOTOGRAMA SAMURAI CHAMPLOO — Mugen y Jin en un duelo de espadas.",
+      "filename": "samurai-champloo.webp",
+      "image": "assets/images/stock/neon-city.webp",
+      "image_alt": "Foto temática de una calle urbana iluminada de noche; no es una captura del juego o anime citado.",
+      "image_caption": "Foto temática de una calle urbana iluminada de noche. No es material oficial del título.",
+      "image_source": "https://www.pexels.com/photo/illuminated-city-street-at-night-11534563/",
+      "image_credit": "Bekir Donmez / Pexels"
+    },
+    {
+      "title": "Vinland Saga",
+      "body": "La historia de guerra evoluciona hacia un drama sobre la violencia y la vida que merece la pena construir.",
+      "photo_needed": "FOTOGRAMA VINLAND SAGA — Thorfinn en una escena que muestre su evolución.",
+      "filename": "vinland-saga.webp",
+      "image": "assets/images/stock/castle.webp",
+      "image_alt": "Foto temática de un castillo medieval rodeado de bosque; no es una captura del juego o anime citado.",
+      "image_caption": "Foto temática de un castillo medieval rodeado de bosque. No es material oficial del título.",
+      "image_source": "https://www.pexels.com/photo/medieval-castle-surrounded-by-dense-forest-30739205/",
+      "image_credit": "swuf . / Pexels"
+    }
+  ]
+}

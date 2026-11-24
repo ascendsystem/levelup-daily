@@ -1,0 +1,6 @@
+User-agent: *
+Allow: /
+Disallow: /content/
+Disallow: /scripts/
+Disallow: /assets/data/
+Sitemap: https://ascendsystem.github.io/levelup-daily/sitemap.xml

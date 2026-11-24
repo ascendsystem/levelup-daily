@@ -1,0 +1,114 @@
+{
+  "license": "Pexels License",
+  "license_url": "https://www.pexels.com/license/",
+  "photos": [
+    {
+      "image": "assets/images/stock/game-controller.webp",
+      "author": "ROMAN ODINTSOV",
+      "source": "https://www.pexels.com/photo/a-person-with-a-game-controller-12718836/",
+      "description": "gaming controller in hands"
+    },
+    {
+      "image": "assets/images/stock/manga-store.webp",
+      "author": "AXP Photography",
+      "source": "https://www.pexels.com/photo/bookshelves-with-japanese-books-18848524/",
+      "description": "manga shelves in a Japanese bookstore"
+    },
+    {
+      "image": "assets/images/stock/retro-controller.webp",
+      "author": "MART PRODUCTION",
+      "source": "https://www.pexels.com/photo/person-holding-a-vintage-game-console-controller-8885396/",
+      "description": "retro controller held in hands"
+    },
+    {
+      "image": "assets/images/stock/neon-city.webp",
+      "author": "Bekir Donmez",
+      "source": "https://www.pexels.com/photo/illuminated-city-street-at-night-11534563/",
+      "description": "illuminated urban street at night"
+    },
+    {
+      "image": "assets/images/stock/ps5-controller.webp",
+      "author": "FOX",
+      "source": "https://www.pexels.com/photo/close-up-shot-of-a-game-controller-13189290/",
+      "description": "PS5 controller and console"
+    },
+    {
+      "image": "assets/images/stock/galaxy.webp",
+      "author": "Felix Mittermeier",
+      "source": "https://www.pexels.com/photo/photo-of-galaxy-2832071/",
+      "description": "nebula and stars"
+    },
+    {
+      "image": "assets/images/stock/underwater.webp",
+      "author": "Alain Margreve",
+      "source": "https://www.pexels.com/photo/people-scuba-diving-in-tropical-waters-and-swimming-among-fish-and-coral-reef-13085964/",
+      "description": "divers exploring a coral reef"
+    },
+    {
+      "image": "assets/images/stock/western.webp",
+      "author": "Anya Juarez Tenorio",
+      "source": "https://www.pexels.com/photo/cowboy-riding-his-horse-in-the-desert-21716146/",
+      "description": "horse rider in a desert landscape"
+    },
+    {
+      "image": "assets/images/stock/castle.webp",
+      "author": "swuf .",
+      "source": "https://www.pexels.com/photo/medieval-castle-surrounded-by-dense-forest-30739205/",
+      "description": "medieval castle and forest"
+    },
+    {
+      "image": "assets/images/stock/gaming-room.webp",
+      "author": "Atahan Demir",
+      "source": "https://www.pexels.com/photo/rgb-gaming-setup-with-dual-monitors-and-pc-33888375/",
+      "description": "RGB PC gaming setup"
+    },
+    {
+      "image": "assets/images/stock/miami-street.webp",
+      "author": "Mathias Gln",
+      "source": "https://www.pexels.com/photo/miami-beach-street-at-sunset-with-palm-trees-41001627/",
+      "description": "Miami Beach street at sunset"
+    },
+    {
+      "image": "assets/images/stock/controller-dark.webp",
+      "author": "Kamil Čičila",
+      "source": "https://www.pexels.com/photo/close-up-of-a-video-game-controller-in-low-light-38764750/",
+      "description": "close-up of a game controller in low light"
+    },
+    {
+      "image": "assets/images/stock/anime-convention.webp",
+      "author": "Hendy Wicaksono",
+      "source": "https://www.pexels.com/photo/anime-character-cosplay-in-indoor-convention-36830644/",
+      "description": "cosplayer at an anime convention"
+    },
+    {
+      "image": "assets/images/stock/sports-car.webp",
+      "author": "Michał Robak",
+      "source": "https://www.pexels.com/photo/sports-car-in-industrial-street-at-night-31779008/",
+      "description": "blue sports car on a city street at night"
+    },
+    {
+      "image": "assets/images/stock/game-screen.webp",
+      "author": "Matheus Bertelli",
+      "source": "https://www.pexels.com/photo/a-computer-displaying-a-game-19012036/",
+      "description": "computer displaying a game"
+    },
+    {
+      "image": "assets/images/stock/horror-hallway.webp",
+      "author": "Luis Arancibia",
+      "source": "https://www.pexels.com/photo/decaying-hallway-11336683/",
+      "description": "dark corridor in an abandoned building"
+    },
+    {
+      "image": "assets/images/stock/campus.webp",
+      "author": "Ritesh Singh",
+      "source": "https://www.pexels.com/photo/university-campus-scene-with-student-walking-33327129/",
+      "description": "student walking on a university campus"
+    },
+    {
+      "image": "assets/images/stock/desert.webp",
+      "author": "Kadir Avşar",
+      "source": "https://www.pexels.com/photo/a-desert-landscape-with-sand-dunes-and-a-sky-14750492/",
+      "description": "sand dunes under a sunset sky"
+    }
+  ]
+}

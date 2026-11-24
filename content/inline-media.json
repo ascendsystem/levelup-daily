@@ -1,0 +1,734 @@
+{
+  "todo-sobre-gta-6": [
+    {
+      "after_section": 3,
+      "image": "assets/images/inline/gta/jason-lucia-beach.webp",
+      "alt": "Jason y Lucia en una imagen promocional de GTA VI.",
+      "caption": "Imagen oficial de GTA VI. Rockstar Games.",
+      "credit": "Rockstar Games",
+      "source": "https://www.rockstargames.com/VI/media"
+    }
+  ],
+  "mapa-gta-6": [
+    {
+      "after_section": 1,
+      "image": "assets/images/inline/gta/gta-map.webp",
+      "alt": "Mapa oficial promocional de Leonida para GTA VI.",
+      "caption": "Mapa facilitado por Rockstar Games; no es una guía de interiores ni un mapa interactivo.",
+      "credit": "Rockstar Games",
+      "source": "https://www.rockstargames.com/VI/media"
+    }
+  ],
+  "personajes-gta-6": [
+    {
+      "after_section": 1,
+      "image": "assets/images/inline/gta/jason-duval.webp",
+      "alt": "Jason Duval en material promocional de GTA VI.",
+      "caption": "Imagen de personaje facilitada por Rockstar Games.",
+      "credit": "Rockstar Games",
+      "source": "https://www.rockstargames.com/VI/media"
+    },
+    {
+      "after_section": 2,
+      "image": "assets/images/inline/gta/lucia-caminos.webp",
+      "alt": "Lucia Caminos en material promocional de GTA VI.",
+      "caption": "Imagen de personaje facilitada por Rockstar Games.",
+      "credit": "Rockstar Games",
+      "source": "https://www.rockstargames.com/VI/media"
+    }
+  ],
+  "novedades-gta-6-frente-gta-5": [
+    {
+      "after_section": 2,
+      "image": "assets/images/inline/gta/jason-lucia-01.webp",
+      "alt": "Jason y Lucia en material promocional de GTA VI.",
+      "caption": "Material promocional de GTA VI; no es una comparativa directa con GTA V.",
+      "credit": "Rockstar Games",
+      "source": "https://www.rockstargames.com/VI/media"
+    }
+  ],
+  "gta-6-ps5-xbox": [
+    {
+      "after_section": 2,
+      "image": "assets/images/inline/gta/jason-lucia-rooftop.webp",
+      "alt": "Jason y Lucia en material promocional de GTA VI.",
+      "caption": "Imagen oficial de GTA VI. Rockstar Games.",
+      "credit": "Rockstar Games",
+      "source": "https://www.rockstargames.com/VI/media"
+    }
+  ],
+  "gta-6-pc": [
+    {
+      "after_section": 2,
+      "image": "assets/images/inline/gta/gta-cover.webp",
+      "alt": "Arte promocional de Grand Theft Auto VI.",
+      "caption": "Material oficial de GTA VI. Rockstar Games.",
+      "credit": "Rockstar Games",
+      "source": "https://www.rockstargames.com/VI/media"
+    }
+  ],
+  "traileres-gta-6-detalles": [
+    {
+      "after_section": 2,
+      "image": "assets/images/inline/gta/jason-lucia-01.webp",
+      "alt": "Jason y Lucia en una imagen promocional de GTA VI.",
+      "caption": "Imagen oficial de GTA VI. Rockstar Games.",
+      "credit": "Rockstar Games",
+      "source": "https://www.rockstargames.com/VI/media"
+    }
+  ],
+  "lugares-identificados-gta-6": [
+    {
+      "after_section": 1,
+      "image": "assets/images/inline/gta/port-gellhorn.webp",
+      "alt": "Postal promocional de Port Gellhorn en Leonida.",
+      "caption": "Postal oficial de una de las localizaciones de GTA VI. Rockstar Games.",
+      "credit": "Rockstar Games",
+      "source": "https://www.rockstargames.com/VI/media"
+    },
+    {
+      "after_section": 3,
+      "image": "assets/images/inline/gta/ambrosia.webp",
+      "alt": "Postal promocional de Ambrosia en Leonida.",
+      "caption": "Postal oficial de una de las localizaciones de GTA VI. Rockstar Games.",
+      "credit": "Rockstar Games",
+      "source": "https://www.rockstargames.com/VI/media"
+    }
+  ],
+  "vice-city-gta-6": [
+    {
+      "after_section": 2,
+      "image": "assets/images/inline/gta/vice-city.webp",
+      "alt": "Vista promocional de Vice City en GTA VI.",
+      "caption": "Material oficial de GTA VI. Rockstar Games.",
+      "credit": "Rockstar Games",
+      "source": "https://www.rockstargames.com/VI/media"
+    }
+  ],
+  "vehiculos-gta-6": [
+    {
+      "after_section": 2,
+      "image": "assets/images/inline/gta/jason-lucia-robbery.webp",
+      "alt": "Jason y Lucia en material promocional de GTA VI.",
+      "caption": "Imagen promocional de GTA VI; sirve como apoyo visual, no identifica un vehículo concreto.",
+      "credit": "Rockstar Games",
+      "source": "https://www.rockstargames.com/VI/media"
+    }
+  ],
+  "actividades-misiones-gta-6": [
+    {
+      "after_section": 2,
+      "image": "assets/images/inline/gta/jason-lucia-robbery.webp",
+      "alt": "Jason y Lucia en una escena promocional de GTA VI.",
+      "caption": "Imagen oficial de GTA VI. Rockstar Games.",
+      "credit": "Rockstar Games",
+      "source": "https://www.rockstargames.com/VI/media"
+    }
+  ],
+  "mundo-abierto-gta-6": [
+    {
+      "after_section": 2,
+      "image": "assets/images/inline/gta/grassrivers.webp",
+      "alt": "Paisaje promocional de Grassrivers, Leonida.",
+      "caption": "Postal oficial de una región de GTA VI. Rockstar Games.",
+      "credit": "Rockstar Games",
+      "source": "https://www.rockstargames.com/VI/media"
+    }
+  ],
+  "animales-fauna-gta-6": [
+    {
+      "after_section": 2,
+      "image": "assets/images/inline/gta/mount-kalaga.webp",
+      "alt": "Paisaje promocional de Mount Kalaga National Park.",
+      "caption": "Postal oficial de una región de GTA VI; no identifica una especie concreta.",
+      "credit": "Rockstar Games",
+      "source": "https://www.rockstargames.com/VI/media"
+    }
+  ],
+  "trucos-gta-6-codigos": [
+    {
+      "after_section": 2,
+      "image": "assets/images/inline/gta/jason-lucia-01.webp",
+      "alt": "Jason y Lucia en material promocional de GTA VI.",
+      "caption": "Imagen promocional de GTA VI; no representa un código de trucos.",
+      "credit": "Rockstar Games",
+      "source": "https://www.rockstargames.com/VI/media"
+    }
+  ],
+  "lugares-secretos-gta-6": [
+    {
+      "after_section": 2,
+      "image": "assets/images/inline/gta/gta-map.webp",
+      "alt": "Mapa promocional de Leonida.",
+      "caption": "Imagen de contexto; los puntos secretos deben verificarse dentro del juego.",
+      "credit": "Rockstar Games",
+      "source": "https://www.rockstargames.com/VI/media"
+    }
+  ],
+  "ganar-dinero-gta-6": [
+    {
+      "after_section": 2,
+      "image": "assets/images/inline/gta/real-dimez.webp",
+      "alt": "Real Dimez en material promocional de GTA VI.",
+      "caption": "Imagen oficial de GTA VI; no representa un método de dinero concreto.",
+      "credit": "Rockstar Games",
+      "source": "https://www.rockstargames.com/VI/media"
+    }
+  ],
+  "robos-gta-6-guia": [
+    {
+      "after_section": 2,
+      "image": "assets/images/inline/gta/jason-lucia-robbery.webp",
+      "alt": "Jason y Lucia en una escena de robo promocional de GTA VI.",
+      "caption": "Material oficial relacionado con los protagonistas. Rockstar Games.",
+      "credit": "Rockstar Games",
+      "source": "https://www.rockstargames.com/VI/media"
+    }
+  ],
+  "guardar-partida-gta-6": [
+    {
+      "after_section": 2,
+      "image": "assets/images/inline/gta/jason-lucia-motel.webp",
+      "alt": "Jason y Lucia en material promocional de GTA VI.",
+      "caption": "Imagen oficial de GTA VI. Rockstar Games.",
+      "credit": "Rockstar Games",
+      "source": "https://www.rockstargames.com/VI/media"
+    }
+  ],
+  "consejos-primeras-horas-gta-6": [
+    {
+      "after_section": 2,
+      "image": "assets/images/inline/gta/jason-lucia-beach.webp",
+      "alt": "Jason y Lucia en una imagen promocional de GTA VI.",
+      "caption": "Imagen oficial de GTA VI. Rockstar Games.",
+      "credit": "Rockstar Games",
+      "source": "https://www.rockstargames.com/VI/media"
+    }
+  ],
+  "misiones-gta-6-capitulos": [
+    {
+      "after_section": 2,
+      "image": "assets/images/inline/gta/jason-lucia-rooftop.webp",
+      "alt": "Jason y Lucia en una imagen promocional de GTA VI.",
+      "caption": "Imagen oficial de GTA VI. Rockstar Games.",
+      "credit": "Rockstar Games",
+      "source": "https://www.rockstargames.com/VI/media"
+    }
+  ],
+  "accesibilidad-gta-6-ajustes": [
+    {
+      "after_section": 2,
+      "image": "assets/images/inline/gta/jason-lucia-01.webp",
+      "alt": "Personajes de GTA VI en una imagen promocional.",
+      "caption": "Imagen de contexto de GTA VI; consulta el texto para funciones de accesibilidad confirmadas.",
+      "credit": "Rockstar Games",
+      "source": "https://www.rockstargames.com/VI/media"
+    }
+  ],
+  "descubrimientos-gta-6-primeros-dias": [
+    {
+      "after_section": 2,
+      "image": "assets/images/inline/gta/vice-city.webp",
+      "alt": "Vista promocional de Vice City en GTA VI.",
+      "caption": "Imagen de contexto; comprueba cada descubrimiento en una partida antes de considerarlo un secreto confirmado.",
+      "credit": "Rockstar Games",
+      "source": "https://www.rockstargames.com/VI/media"
+    }
+  ],
+  "actualizacion-gta-6-23-noviembre": [
+    {
+      "after_section": 2,
+      "image": "assets/images/inline/gta/jason-lucia-motel.webp",
+      "alt": "Jason y Lucia en una imagen promocional de GTA VI.",
+      "caption": "Imagen de contexto para la noticia de actualización. Rockstar Games.",
+      "credit": "Rockstar Games",
+      "source": "https://www.rockstargames.com/VI/media"
+    }
+  ],
+  "valorant-guia-principiantes": [
+    {
+      "after_section": 2,
+      "image": "assets/images/inline/valorant-sage.webp",
+      "alt": "Sage en una imagen promocional de VALORANT.",
+      "caption": "Imagen promocional de VALORANT; crédito a Riot Games.",
+      "credit": "Riot Games",
+      "source": "https://playvalorant.com/es-es/"
+    }
+  ],
+  "elegir-pc-gaming-2026": [
+    {
+      "after_section": 2,
+      "image": "assets/images/inline/pc-rig.webp",
+      "alt": "Fotografía de un PC gaming ensamblado en una mesa de juego.",
+      "caption": "Fotografía de un ordenador gaming proporcionada para LEVELUP DAILY."
+    }
+  ],
+  "mejores-juegos-supervivencia": [
+    {
+      "after_section": 2,
+      "image": "assets/images/inline/minecraft-capture.webp",
+      "alt": "Escena capturada de Minecraft con construcciones y personajes del juego.",
+      "caption": "Captura de Minecraft incluida entre las imágenes facilitadas para LEVELUP DAILY."
+    }
+  ],
+  "precio-ediciones-gta-6": [
+    {
+      "after_section": 2,
+      "image": "assets/images/stock/miami-street.webp",
+      "alt": "Fotografía temática de una calle de Miami Beach al atardecer; no es una imagen oficial del juego o anime mencionado.",
+      "caption": "Foto temática de una calle de Miami Beach al atardecer. No es una captura oficial del título.",
+      "credit": "Mathias Gln / Pexels",
+      "source": "https://www.pexels.com/photo/miami-beach-street-at-sunset-with-palm-trees-41001627/"
+    }
+  ],
+  "preguntas-frecuentes-gta-6": [
+    {
+      "after_section": 2,
+      "image": "assets/images/stock/miami-street.webp",
+      "alt": "Fotografía temática de una calle de Miami Beach al atardecer; no es una imagen oficial del juego o anime mencionado.",
+      "caption": "Foto temática de una calle de Miami Beach al atardecer. No es una captura oficial del título.",
+      "credit": "Mathias Gln / Pexels",
+      "source": "https://www.pexels.com/photo/miami-beach-street-at-sunset-with-palm-trees-41001627/"
+    }
+  ],
+  "videojuegos-esperados-proximos-meses": [
+    {
+      "after_section": 2,
+      "image": "assets/images/stock/gaming-room.webp",
+      "alt": "Fotografía temática de un equipo gaming de PC con iluminación RGB; no es una imagen oficial del juego o anime mencionado.",
+      "caption": "Foto temática de un equipo gaming de PC con iluminación RGB. No es una captura oficial del título.",
+      "credit": "Atahan Demir / Pexels",
+      "source": "https://www.pexels.com/photo/rgb-gaming-setup-with-dual-monitors-and-pc-33888375/"
+    }
+  ],
+  "mejores-juegos-gratis": [
+    {
+      "after_section": 2,
+      "image": "assets/images/stock/gaming-room.webp",
+      "alt": "Fotografía temática de un equipo gaming de PC con iluminación RGB; no es una imagen oficial del juego o anime mencionado.",
+      "caption": "Foto temática de un equipo gaming de PC con iluminación RGB. No es una captura oficial del título.",
+      "credit": "Atahan Demir / Pexels",
+      "source": "https://www.pexels.com/photo/rgb-gaming-setup-with-dual-monitors-and-pc-33888375/"
+    }
+  ],
+  "mejores-juegos-para-jugar-con-amigos": [
+    {
+      "after_section": 2,
+      "image": "assets/images/stock/game-controller.webp",
+      "alt": "Fotografía temática de un mando de videojuegos en las manos de un jugador; no es una imagen oficial del juego o anime mencionado.",
+      "caption": "Foto temática de un mando de videojuegos en las manos de un jugador. No es una captura oficial del título.",
+      "credit": "ROMAN ODINTSOV / Pexels",
+      "source": "https://www.pexels.com/photo/a-person-with-a-game-controller-12718836/"
+    }
+  ],
+  "mejores-juegos-terror": [
+    {
+      "after_section": 2,
+      "image": "assets/images/stock/horror-hallway.webp",
+      "alt": "Fotografía temática de un pasillo oscuro en un edificio abandonado; no es una imagen oficial del juego o anime mencionado.",
+      "caption": "Foto temática de un pasillo oscuro en un edificio abandonado. No es una captura oficial del título.",
+      "credit": "Luis Arancibia / Pexels",
+      "source": "https://www.pexels.com/photo/decaying-hallway-11336683/"
+    }
+  ],
+  "mejores-animes-para-empezar": [
+    {
+      "after_section": 2,
+      "image": "assets/images/stock/manga-store.webp",
+      "alt": "Fotografía temática de estanterías de manga en una librería japonesa; no es una imagen oficial del juego o anime mencionado.",
+      "caption": "Foto temática de estanterías de manga en una librería japonesa. No es una captura oficial del título.",
+      "credit": "AXP Photography / Pexels",
+      "source": "https://www.pexels.com/photo/bookshelves-with-japanese-books-18848524/"
+    }
+  ],
+  "animes-populares-actualmente": [
+    {
+      "after_section": 2,
+      "image": "assets/images/stock/anime-convention.webp",
+      "alt": "Fotografía temática de una persona disfrazada en una convención de anime; no es una imagen oficial del juego o anime mencionado.",
+      "caption": "Foto temática de una persona disfrazada en una convención de anime. No es una captura oficial del título.",
+      "credit": "Hendy Wicaksono / Pexels",
+      "source": "https://www.pexels.com/photo/anime-character-cosplay-in-indoor-convention-36830644/"
+    }
+  ],
+  "mejores-animes-2026": [
+    {
+      "after_section": 2,
+      "image": "assets/images/stock/anime-convention.webp",
+      "alt": "Fotografía temática de una persona disfrazada en una convención de anime; no es una imagen oficial del juego o anime mencionado.",
+      "caption": "Foto temática de una persona disfrazada en una convención de anime. No es una captura oficial del título.",
+      "credit": "Hendy Wicaksono / Pexels",
+      "source": "https://www.pexels.com/photo/anime-character-cosplay-in-indoor-convention-36830644/"
+    }
+  ],
+  "animes-mejores-historias": [
+    {
+      "after_section": 2,
+      "image": "assets/images/stock/manga-store.webp",
+      "alt": "Fotografía temática de estanterías de manga en una librería japonesa; no es una imagen oficial del juego o anime mencionado.",
+      "caption": "Foto temática de estanterías de manga en una librería japonesa. No es una captura oficial del título.",
+      "credit": "AXP Photography / Pexels",
+      "source": "https://www.pexels.com/photo/bookshelves-with-japanese-books-18848524/"
+    }
+  ],
+  "animes-cortos-fin-semana": [
+    {
+      "after_section": 2,
+      "image": "assets/images/stock/anime-convention.webp",
+      "alt": "Fotografía temática de una persona disfrazada en una convención de anime; no es una imagen oficial del juego o anime mencionado.",
+      "caption": "Foto temática de una persona disfrazada en una convención de anime. No es una captura oficial del título.",
+      "credit": "Hendy Wicaksono / Pexels",
+      "source": "https://www.pexels.com/photo/anime-character-cosplay-in-indoor-convention-36830644/"
+    }
+  ],
+  "personajes-anime-mas-poderosos": [
+    {
+      "after_section": 2,
+      "image": "assets/images/stock/anime-convention.webp",
+      "alt": "Fotografía temática de una persona disfrazada en una convención de anime; no es una imagen oficial del juego o anime mencionado.",
+      "caption": "Foto temática de una persona disfrazada en una convención de anime. No es una captura oficial del título.",
+      "credit": "Hendy Wicaksono / Pexels",
+      "source": "https://www.pexels.com/photo/anime-character-cosplay-in-indoor-convention-36830644/"
+    }
+  ],
+  "videojuegos-mas-vendidos-historia": [
+    {
+      "after_section": 2,
+      "image": "assets/images/stock/retro-controller.webp",
+      "alt": "Fotografía temática de un mando retro en las manos de un jugador; no es una imagen oficial del juego o anime mencionado.",
+      "caption": "Foto temática de un mando retro en las manos de un jugador. No es una captura oficial del título.",
+      "credit": "MART PRODUCTION / Pexels",
+      "source": "https://www.pexels.com/photo/person-holding-a-vintage-game-console-controller-8885396/"
+    }
+  ],
+  "personajes-iconicos-videojuegos": [
+    {
+      "after_section": 2,
+      "image": "assets/images/stock/game-screen.webp",
+      "alt": "Fotografía temática de un ordenador con un videojuego en pantalla; no es una imagen oficial del juego o anime mencionado.",
+      "caption": "Foto temática de un ordenador con un videojuego en pantalla. No es una captura oficial del título.",
+      "credit": "Matheus Bertelli / Pexels",
+      "source": "https://www.pexels.com/photo/a-computer-displaying-a-game-19012036/"
+    }
+  ],
+  "mejores-villanos-videojuegos": [
+    {
+      "after_section": 2,
+      "image": "assets/images/stock/game-screen.webp",
+      "alt": "Fotografía temática de un ordenador con un videojuego en pantalla; no es una imagen oficial del juego o anime mencionado.",
+      "caption": "Foto temática de un ordenador con un videojuego en pantalla. No es una captura oficial del título.",
+      "credit": "Matheus Bertelli / Pexels",
+      "source": "https://www.pexels.com/photo/a-computer-displaying-a-game-19012036/"
+    }
+  ],
+  "sagas-videojuegos-que-no-pasan-moda": [
+    {
+      "after_section": 2,
+      "image": "assets/images/stock/retro-controller.webp",
+      "alt": "Fotografía temática de un mando retro en las manos de un jugador; no es una imagen oficial del juego o anime mencionado.",
+      "caption": "Foto temática de un mando retro en las manos de un jugador. No es una captura oficial del título.",
+      "credit": "MART PRODUCTION / Pexels",
+      "source": "https://www.pexels.com/photo/person-holding-a-vintage-game-console-controller-8885396/"
+    }
+  ],
+  "como-elegir-manga": [
+    {
+      "after_section": 2,
+      "image": "assets/images/stock/manga-store.webp",
+      "alt": "Fotografía temática de estanterías de manga en una librería japonesa; no es una imagen oficial del juego o anime mencionado.",
+      "caption": "Foto temática de estanterías de manga en una librería japonesa. No es una captura oficial del título.",
+      "credit": "AXP Photography / Pexels",
+      "source": "https://www.pexels.com/photo/bookshelves-with-japanese-books-18848524/"
+    }
+  ],
+  "mejores-juegos-cooperativos": [
+    {
+      "after_section": 2,
+      "image": "assets/images/stock/game-controller.webp",
+      "alt": "Fotografía temática de un mando de videojuegos en las manos de un jugador; no es una imagen oficial del juego o anime mencionado.",
+      "caption": "Foto temática de un mando de videojuegos en las manos de un jugador. No es una captura oficial del título.",
+      "credit": "ROMAN ODINTSOV / Pexels",
+      "source": "https://www.pexels.com/photo/a-person-with-a-game-controller-12718836/"
+    }
+  ],
+  "mejores-juegos-pc-ultimos-anos": [
+    {
+      "after_section": 2,
+      "image": "assets/images/stock/gaming-room.webp",
+      "alt": "Fotografía temática de un equipo gaming de PC con iluminación RGB; no es una imagen oficial del juego o anime mencionado.",
+      "caption": "Foto temática de un equipo gaming de PC con iluminación RGB. No es una captura oficial del título.",
+      "credit": "Atahan Demir / Pexels",
+      "source": "https://www.pexels.com/photo/rgb-gaming-setup-with-dual-monitors-and-pc-33888375/"
+    }
+  ],
+  "juegos-similares-gta": [
+    {
+      "after_section": 2,
+      "image": "assets/images/stock/miami-street.webp",
+      "alt": "Fotografía temática de una calle de Miami Beach al atardecer; no es una imagen oficial del juego o anime mencionado.",
+      "caption": "Foto temática de una calle de Miami Beach al atardecer. No es una captura oficial del título.",
+      "credit": "Mathias Gln / Pexels",
+      "source": "https://www.pexels.com/photo/miami-beach-street-at-sunset-with-palm-trees-41001627/"
+    }
+  ],
+  "juegos-para-cuando-aburrido": [
+    {
+      "after_section": 2,
+      "image": "assets/images/stock/game-controller.webp",
+      "alt": "Fotografía temática de un mando de videojuegos en las manos de un jugador; no es una imagen oficial del juego o anime mencionado.",
+      "caption": "Foto temática de un mando de videojuegos en las manos de un jugador. No es una captura oficial del título.",
+      "credit": "ROMAN ODINTSOV / Pexels",
+      "source": "https://www.pexels.com/photo/a-person-with-a-game-controller-12718836/"
+    }
+  ],
+  "mejores-juegos-para-parejas": [
+    {
+      "after_section": 2,
+      "image": "assets/images/stock/game-controller.webp",
+      "alt": "Fotografía temática de un mando de videojuegos en las manos de un jugador; no es una imagen oficial del juego o anime mencionado.",
+      "caption": "Foto temática de un mando de videojuegos en las manos de un jugador. No es una captura oficial del título.",
+      "credit": "ROMAN ODINTSOV / Pexels",
+      "source": "https://www.pexels.com/photo/a-person-with-a-game-controller-12718836/"
+    }
+  ],
+  "juegos-muchas-horas-diversion": [
+    {
+      "after_section": 2,
+      "image": "assets/images/stock/gaming-room.webp",
+      "alt": "Fotografía temática de un equipo gaming de PC con iluminación RGB; no es una imagen oficial del juego o anime mencionado.",
+      "caption": "Foto temática de un equipo gaming de PC con iluminación RGB. No es una captura oficial del título.",
+      "credit": "Atahan Demir / Pexels",
+      "source": "https://www.pexels.com/photo/rgb-gaming-setup-with-dual-monitors-and-pc-33888375/"
+    }
+  ],
+  "mejores-videojuegos-deportivos": [
+    {
+      "after_section": 2,
+      "image": "assets/images/stock/game-screen.webp",
+      "alt": "Fotografía temática de un ordenador con un videojuego en pantalla; no es una imagen oficial del juego o anime mencionado.",
+      "caption": "Foto temática de un ordenador con un videojuego en pantalla. No es una captura oficial del título.",
+      "credit": "Matheus Bertelli / Pexels",
+      "source": "https://www.pexels.com/photo/a-computer-displaying-a-game-19012036/"
+    }
+  ],
+  "mejores-animes-romance": [
+    {
+      "after_section": 2,
+      "image": "assets/images/stock/anime-convention.webp",
+      "alt": "Fotografía temática de una persona disfrazada en una convención de anime; no es una imagen oficial del juego o anime mencionado.",
+      "caption": "Foto temática de una persona disfrazada en una convención de anime. No es una captura oficial del título.",
+      "credit": "Hendy Wicaksono / Pexels",
+      "source": "https://www.pexels.com/photo/anime-character-cosplay-in-indoor-convention-36830644/"
+    }
+  ],
+  "mejores-animes-terror": [
+    {
+      "after_section": 2,
+      "image": "assets/images/stock/horror-hallway.webp",
+      "alt": "Fotografía temática de un pasillo oscuro en un edificio abandonado; no es una imagen oficial del juego o anime mencionado.",
+      "caption": "Foto temática de un pasillo oscuro en un edificio abandonado. No es una captura oficial del título.",
+      "credit": "Luis Arancibia / Pexels",
+      "source": "https://www.pexels.com/photo/decaying-hallway-11336683/"
+    }
+  ],
+  "mejores-animes-fantasia": [
+    {
+      "after_section": 2,
+      "image": "assets/images/stock/castle.webp",
+      "alt": "Fotografía temática de un castillo medieval rodeado de bosque; no es una imagen oficial del juego o anime mencionado.",
+      "caption": "Foto temática de un castillo medieval rodeado de bosque. No es una captura oficial del título.",
+      "credit": "swuf . / Pexels",
+      "source": "https://www.pexels.com/photo/medieval-castle-surrounded-by-dense-forest-30739205/"
+    }
+  ],
+  "mejores-animes-ciencia-ficcion": [
+    {
+      "after_section": 2,
+      "image": "assets/images/stock/galaxy.webp",
+      "alt": "Fotografía temática de una nebulosa y estrellas; no es una imagen oficial del juego o anime mencionado.",
+      "caption": "Foto temática de una nebulosa y estrellas. No es una captura oficial del título.",
+      "credit": "Felix Mittermeier / Pexels",
+      "source": "https://www.pexels.com/photo/photo-of-galaxy-2832071/"
+    }
+  ],
+  "animes-populares-todos-tiempos": [
+    {
+      "after_section": 2,
+      "image": "assets/images/stock/manga-store.webp",
+      "alt": "Fotografía temática de estanterías de manga en una librería japonesa; no es una imagen oficial del juego o anime mencionado.",
+      "caption": "Foto temática de estanterías de manga en una librería japonesa. No es una captura oficial del título.",
+      "credit": "AXP Photography / Pexels",
+      "source": "https://www.pexels.com/photo/bookshelves-with-japanese-books-18848524/"
+    }
+  ],
+  "mejores-villanos-anime": [
+    {
+      "after_section": 2,
+      "image": "assets/images/stock/anime-convention.webp",
+      "alt": "Fotografía temática de una persona disfrazada en una convención de anime; no es una imagen oficial del juego o anime mencionado.",
+      "caption": "Foto temática de una persona disfrazada en una convención de anime. No es una captura oficial del título.",
+      "credit": "Hendy Wicaksono / Pexels",
+      "source": "https://www.pexels.com/photo/anime-character-cosplay-in-indoor-convention-36830644/"
+    }
+  ],
+  "animes-que-marcaron-historia": [
+    {
+      "after_section": 2,
+      "image": "assets/images/stock/manga-store.webp",
+      "alt": "Fotografía temática de estanterías de manga en una librería japonesa; no es una imagen oficial del juego o anime mencionado.",
+      "caption": "Foto temática de estanterías de manga en una librería japonesa. No es una captura oficial del título.",
+      "credit": "AXP Photography / Pexels",
+      "source": "https://www.pexels.com/photo/bookshelves-with-japanese-books-18848524/"
+    }
+  ],
+  "anime-despues-naruto-one-piece-dragon-ball": [
+    {
+      "after_section": 2,
+      "image": "assets/images/stock/anime-convention.webp",
+      "alt": "Fotografía temática de una persona disfrazada en una convención de anime; no es una imagen oficial del juego o anime mencionado.",
+      "caption": "Foto temática de una persona disfrazada en una convención de anime. No es una captura oficial del título.",
+      "credit": "Hendy Wicaksono / Pexels",
+      "source": "https://www.pexels.com/photo/anime-character-cosplay-in-indoor-convention-36830644/"
+    }
+  ],
+  "mejores-exclusivos-playstation": [
+    {
+      "after_section": 2,
+      "image": "assets/images/stock/ps5-controller.webp",
+      "alt": "Fotografía temática de un mando y una consola PlayStation 5; no es una imagen oficial del juego o anime mencionado.",
+      "caption": "Foto temática de un mando y una consola PlayStation 5. No es una captura oficial del título.",
+      "credit": "FOX / Pexels",
+      "source": "https://www.pexels.com/photo/close-up-shot-of-a-game-controller-13189290/"
+    }
+  ],
+  "mejores-juegos-xbox": [
+    {
+      "after_section": 2,
+      "image": "assets/images/stock/game-controller.webp",
+      "alt": "Fotografía temática de un mando de videojuegos en las manos de un jugador; no es una imagen oficial del juego o anime mencionado.",
+      "caption": "Foto temática de un mando de videojuegos en las manos de un jugador. No es una captura oficial del título.",
+      "credit": "ROMAN ODINTSOV / Pexels",
+      "source": "https://www.pexels.com/photo/a-person-with-a-game-controller-12718836/"
+    }
+  ],
+  "mejores-juegos-nintendo-switch": [
+    {
+      "after_section": 2,
+      "image": "assets/images/stock/retro-controller.webp",
+      "alt": "Fotografía temática de un mando retro en las manos de un jugador; no es una imagen oficial del juego o anime mencionado.",
+      "caption": "Foto temática de un mando retro en las manos de un jugador. No es una captura oficial del título.",
+      "credit": "MART PRODUCTION / Pexels",
+      "source": "https://www.pexels.com/photo/person-holding-a-vintage-game-console-controller-8885396/"
+    }
+  ],
+  "mejores-juegos-ps5-online": [
+    {
+      "after_section": 2,
+      "image": "assets/images/stock/gaming-room.webp",
+      "alt": "Fotografía temática de un equipo gaming de PC con iluminación RGB; no es una imagen oficial del juego o anime mencionado.",
+      "caption": "Foto temática de un equipo gaming de PC con iluminación RGB. No es una captura oficial del título.",
+      "credit": "Atahan Demir / Pexels",
+      "source": "https://www.pexels.com/photo/rgb-gaming-setup-with-dual-monitors-and-pc-33888375/"
+    }
+  ],
+  "mejores-juegos-pc-gratis": [
+    {
+      "after_section": 2,
+      "image": "assets/images/stock/gaming-room.webp",
+      "alt": "Fotografía temática de un equipo gaming de PC con iluminación RGB; no es una imagen oficial del juego o anime mencionado.",
+      "caption": "Foto temática de un equipo gaming de PC con iluminación RGB. No es una captura oficial del título.",
+      "credit": "Atahan Demir / Pexels",
+      "source": "https://www.pexels.com/photo/rgb-gaming-setup-with-dual-monitors-and-pc-33888375/"
+    }
+  ],
+  "mejores-juegos-pc-poco-potentes": [
+    {
+      "after_section": 2,
+      "image": "assets/images/stock/game-screen.webp",
+      "alt": "Fotografía temática de un ordenador con un videojuego en pantalla; no es una imagen oficial del juego o anime mencionado.",
+      "caption": "Foto temática de un ordenador con un videojuego en pantalla. No es una captura oficial del título.",
+      "credit": "Matheus Bertelli / Pexels",
+      "source": "https://www.pexels.com/photo/a-computer-displaying-a-game-19012036/"
+    }
+  ],
+  "mejores-mandos-para-jugar": [
+    {
+      "after_section": 2,
+      "image": "assets/images/stock/ps5-controller.webp",
+      "alt": "Fotografía temática de un mando y una consola PlayStation 5; no es una imagen oficial del juego o anime mencionado.",
+      "caption": "Foto temática de un mando y una consola PlayStation 5. No es una captura oficial del título.",
+      "credit": "FOX / Pexels",
+      "source": "https://www.pexels.com/photo/close-up-shot-of-a-game-controller-13189290/"
+    }
+  ],
+  "mejores-consolas-de-la-historia": [
+    {
+      "after_section": 2,
+      "image": "assets/images/stock/retro-controller.webp",
+      "alt": "Fotografía temática de un mando retro en las manos de un jugador; no es una imagen oficial del juego o anime mencionado.",
+      "caption": "Foto temática de un mando retro en las manos de un jugador. No es una captura oficial del título.",
+      "credit": "MART PRODUCTION / Pexels",
+      "source": "https://www.pexels.com/photo/person-holding-a-vintage-game-console-controller-8885396/"
+    }
+  ],
+  "consola-segun-presupuesto": [
+    {
+      "after_section": 2,
+      "image": "assets/images/stock/retro-controller.webp",
+      "alt": "Fotografía temática de un mando retro en las manos de un jugador; no es una imagen oficial del juego o anime mencionado.",
+      "caption": "Foto temática de un mando retro en las manos de un jugador. No es una captura oficial del título.",
+      "credit": "MART PRODUCTION / Pexels",
+      "source": "https://www.pexels.com/photo/person-holding-a-vintage-game-console-controller-8885396/"
+    }
+  ],
+  "secretos-y-easter-eggs-videojuegos": [
+    {
+      "after_section": 2,
+      "image": "assets/images/stock/game-screen.webp",
+      "alt": "Fotografía temática de un ordenador con un videojuego en pantalla; no es una imagen oficial del juego o anime mencionado.",
+      "caption": "Foto temática de un ordenador con un videojuego en pantalla. No es una captura oficial del título.",
+      "credit": "Matheus Bertelli / Pexels",
+      "source": "https://www.pexels.com/photo/a-computer-displaying-a-game-19012036/"
+    }
+  ],
+  "mejores-peliculas-anime-familia": [
+    {
+      "after_section": 2,
+      "image": "assets/images/stock/manga-store.webp",
+      "alt": "Fotografía temática de estanterías de manga en una librería japonesa; no es una imagen oficial del juego o anime mencionado.",
+      "caption": "Foto temática de estanterías de manga en una librería japonesa. No es una captura oficial del título.",
+      "credit": "AXP Photography / Pexels",
+      "source": "https://www.pexels.com/photo/bookshelves-with-japanese-books-18848524/"
+    }
+  ],
+  "gta-vi-album-deluxe-canciones-artistas": [
+    {
+      "after_section": 2,
+      "image": "assets/images/stock/gaming-room.webp",
+      "alt": "Fotografía temática de un equipo gaming de PC con iluminación RGB; no es una imagen oficial del juego o anime mencionado.",
+      "caption": "Foto temática de un equipo gaming de PC con iluminación RGB. No es una captura oficial del título.",
+      "credit": "Atahan Demir / Pexels",
+      "source": "https://www.pexels.com/photo/rgb-gaming-setup-with-dual-monitors-and-pc-33888375/"
+    }
+  ],
+  "radios-podcasts-gta-vi-emisoras": [
+    {
+      "after_section": 2,
+      "image": "assets/images/stock/miami-street.webp",
+      "alt": "Fotografía temática de una calle de Miami Beach al atardecer; no es una imagen oficial del juego o anime mencionado.",
+      "caption": "Foto temática de una calle de Miami Beach al atardecer. No es una captura oficial del título.",
+      "credit": "Mathias Gln / Pexels",
+      "source": "https://www.pexels.com/photo/miami-beach-street-at-sunset-with-palm-trees-41001627/"
+    }
+  ],
+  "ps5-vs-xbox-que-consola-comprar": [
+    {
+      "after_section": 2,
+      "image": "assets/images/stock/game-controller.webp",
+      "alt": "Fotografía temática de un mando de videojuegos en las manos de un jugador; no es una imagen oficial del juego o anime mencionado.",
+      "caption": "Foto temática de un mando de videojuegos en las manos de un jugador. No es una captura oficial del título.",
+      "credit": "ROMAN ODINTSOV / Pexels",
+      "source": "https://www.pexels.com/photo/a-person-with-a-game-controller-12718836/"
+    }
+  ]
+}

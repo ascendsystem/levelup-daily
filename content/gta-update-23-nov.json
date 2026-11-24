@@ -1,0 +1,78 @@
+[
+  {
+    "slug": "actualizacion-gta-6-23-noviembre",
+    "category": "gta-6",
+    "categories": [
+      "gta-6",
+      "videojuegos",
+      "guias"
+    ],
+    "title": "Actualización de GTA 6 del 23 de noviembre: notas oficiales y arreglos",
+    "description": "Rockstar publicó las notas de la actualización de GTA VI del 23 de noviembre. Repasamos los siete problemas corregidos y qué hacer si siguen apareciendo.",
+    "dek": "La primera actualización posterior al lanzamiento corrige fallos de cierre, clima, autoguardado, llamadas, nivel de búsqueda y varias actividades.",
+    "date": "2026-11-23",
+    "updated": "2026-11-23",
+    "cover": "gta-update-23-nov",
+    "schema_type": "NewsArticle",
+    "intro": "Rockstar Support actualizó el 23 de noviembre su página de notas de lanzamiento de Grand Theft Auto VI para PS5 y Xbox Series X|S. La lista oficial describe siete correcciones generales. Esta guía resume lo que dice Rockstar sin atribuirle un número de versión, tamaño de descarga o promesa de rendimiento que la nota no incluye.",
+    "sections": [
+      {
+        "title": "Qué publicó Rockstar el 23 de noviembre",
+        "body": "La página oficial de soporte agrupa los cambios como «General / Miscellaneous» y registra la fecha del 23 de noviembre de 2026. Incluye siete correcciones: varios problemas que causaban cierres; el clima que podía permanecer igual durante periodos prolongados; fallos del autoguardado; llamadas que no se activaban, incluidas algunas de progreso de historia; un nivel de búsqueda que no se podía perder; la barra de peso muerto del gimnasio; y compañeros que no entregaban las bolsas para venderlas a peristas. La lista completa aparece en las fuentes al final."
+      },
+      {
+        "title": "Estabilidad, clima y autoguardado",
+        "body": "Rockstar confirma que corrigió varios problemas que podían cerrar el juego y un fallo que impedía que el clima cambiase durante periodos largos. También reconoce un problema del autoguardado. La nota no identifica cada condición que causaba los cierres ni explica cómo recuperar un progreso que ya se hubiera perdido; por eso no conviene asumir que un guardado dañado se reparará por sí solo."
+      },
+      {
+        "title": "Llamadas que hacen avanzar la historia",
+        "body": "La actualización corrige varias llamadas que no se activaban correctamente, incluidas las que avanzaban la historia o desbloqueaban contenido de misiones. Si una llamada importante no llega, primero comprueba que la consola y el juego tengan sus actualizaciones instaladas y carga tu partida de nuevo. Rockstar no indica en esta nota que exista un paso manual garantizado para forzar cada llamada."
+      },
+      {
+        "title": "Nivel de búsqueda, gimnasio y bolsas para los peristas",
+        "body": "La lista también incluye tres fallos concretos de actividades: perder el nivel de búsqueda, usar la barra de peso muerto del gimnasio y recibir de los compañeros las bolsas que se pueden vender a los peristas. Son correcciones descritas por Rockstar; la nota no detalla qué misiones, personajes o zonas estaban afectadas."
+      },
+      {
+        "title": "Datos que la nota oficial no da",
+        "body": "El artículo de soporte no identifica en su lista el número de versión de cada consola, el tamaño de la descarga, las causas técnicas de cada error ni la fecha de la siguiente actualización. Las cifras que se publiquen en redes o en webs de terceros pueden referirse a una plataforma o a una medición distinta. Para confirmar si tienes el parche, mira la pantalla de actualización de tu PS5 o Xbox y compara con el historial de soporte oficial."
+      },
+      {
+        "title": "Si el problema continúa después de actualizar",
+        "body": "Anota el error, la misión o actividad, la plataforma y el momento en que ocurrió. Comprueba que la consola haya terminado de instalar la actualización y consulta la página oficial de resolución de errores de Rockstar para tu plataforma. Si el juego ya perdió progreso, conserva el archivo de guardado y evita sobrescribir una ranura manual que aún funcione. Que un fallo aparezca en las notas no garantiza que cada caso relacionado haya quedado resuelto."
+      }
+    ],
+    "conclusion": "La nota oficial del 23 de noviembre confirma siete correcciones para GTA VI, entre ellas fallos de autoguardado y llamadas que podían impedir avanzar. Rockstar no publicó en esa página número de versión ni tamaño de descarga; usa el soporte oficial para comprobar tu consola y reportar un problema que persista.",
+    "faq": [
+      [
+        "¿Qué arregla la actualización de GTA 6 del 23 de noviembre?",
+        "Rockstar enumera siete correcciones: cierres, clima que no cambiaba, autoguardado, llamadas que no se activaban, nivel de búsqueda que no se perdía, barra del gimnasio y bolsas que los compañeros no entregaban a los peristas."
+      ],
+      [
+        "¿La actualización arregla llamadas que desbloquean misiones?",
+        "Rockstar dice que corrigió varias llamadas que no se activaban, incluidas algunas que progresaban la historia o desbloqueaban contenido de misiones."
+      ],
+      [
+        "¿Qué número de versión tiene el parche?",
+        "La página oficial de notas consultada el 23 de noviembre no especifica el número de versión ni el tamaño de descarga. Comprueba el historial de soporte de Rockstar y la información de actualización de tu consola."
+      ],
+      [
+        "¿Por qué sigue ocurriendo un error si ya actualicé?",
+        "Las notas no detallan todas las condiciones de cada fallo. Registra el error y la plataforma, comprueba la instalación y consulta el soporte oficial si persiste."
+      ]
+    ],
+    "sources": [
+      [
+        "Rockstar Support: notas de lanzamiento de GTA VI",
+        "https://support.rockstargames.com/articles/sN5pEdFYZdlvijKXd6xpJ/grand-theft-auto-vi-launch-updates-ps5-xbox-series-x-or-s"
+      ],
+      [
+        "Rockstar Support: solución de errores de GTA VI",
+        "https://support.rockstargames.com/VI"
+      ]
+    ],
+    "image_alt": "Imagen promocional oficial de GTA VI con sus protagonistas.",
+    "image_caption": "Imagen promocional de GTA VI facilitada para la web; crédito a Rockstar Games.",
+    "image_credit": "Rockstar Games",
+    "image_source": "https://www.rockstargames.com/VI/media"
+  }
+]

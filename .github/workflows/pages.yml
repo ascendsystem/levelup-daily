@@ -1,0 +1,58 @@
+name: Deploy LEVELUP DAILY to GitHub Pages
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: github-pages
+  cancel-in-progress: true
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v7
+      - name: Configure GitHub Pages
+        uses: actions/configure-pages@v5
+      - uses: actions/setup-python@v7
+        with:
+          python-version: "3.x"
+      - name: Build the static site
+        run: |
+          python scripts/build.py
+          python scripts/audit_generated.py
+      - name: Assemble Pages artifact
+        run: |
+          mkdir _site
+          cp -a index.html 404.html robots.txt sitemap.xml .nojekyll assets gta-6 videojuegos playstation xbox pc-gaming nintendo anime manga rankings guias tecnologia sobre-nosotros contacto politica-de-privacidad politica-de-cookies aviso-legal politica-editorial buscar _site/
+          python - <<'PY'
+          import json, pathlib, shutil
+          from urllib.parse import urlparse
+          site = json.loads(pathlib.Path("site.json").read_text(encoding="utf-8"))
+          ads = site.get("adsense", {})
+          base = str(site.get("base_url", "")).rstrip("/")
+          parsed = urlparse(base)
+          public = parsed.scheme == "https" and parsed.netloc and "." in parsed.netloc and not any(x in base.lower() for x in ("tu-usuario", "example.com", "localhost", "pendiente"))
+          configured = ads.get("mode") in ("review", "active") and ads.get("publisher_id_confirmed") is True
+          if public and configured and pathlib.Path("ads.txt").is_file():
+              shutil.copy2("ads.txt", "_site/ads.txt")
+          PY
+      - uses: actions/upload-pages-artifact@v4
+        with:
+          path: _site
+  deploy:
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    runs-on: ubuntu-latest
+    needs: build
+    steps:
+      - id: deployment
+        uses: actions/deploy-pages@v4
