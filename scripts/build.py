@@ -234,7 +234,8 @@ def footer(depth: int) -> str:
 def card(item: dict, depth: int, compact=False) -> str:
     cls = "story-card story-card-compact" if compact else "story-card"
     path = rel(depth, article_path(item))
-    return f'''<article class="{cls}">{cover_visual(item,depth)}<div class="card-body"><a class="category-label" href="{rel(depth,item['category']+'/')}">{esc(CATEGORIES[item['category']][0])}</a><h3><a href="{path}">{esc(item['title'])}</a></h3><p>{esc(item['description'])}</p><div class="card-meta"><time datetime="{item['updated']}">{date.fromisoformat(item['updated']).strftime('%d/%m/%Y')}</time><span>{item['readTime']} min</span></div></div></article>'''
+    read_time = f'<span>{item["readTime"]} min</span>' if item.get("readTime") else ""
+    return f'''<article class="{cls}">{cover_visual(item,depth)}<div class="card-body"><a class="category-label" href="{rel(depth,item['category']+'/')}">{esc(CATEGORIES[item['category']][0])}</a><h3><a href="{path}">{esc(item['title'])}</a></h3><p>{esc(item['description'])}</p><div class="card-meta"><time datetime="{item['updated']}">{date.fromisoformat(item['updated']).strftime('%d/%m/%Y')}</time>{read_time}</div></div></article>'''
 
 def breadcrumbs(items, depth):
     parts = [f'<a href="{rel(depth,"index.html")}">Inicio</a>']
@@ -304,6 +305,111 @@ def gta_home_block(items, depth):
     intro='GTA VI ya recorre Leonida. Descubre los detalles confirmados, personajes, mapa, vehículos, secretos y guías del nuevo mundo de Rockstar.'
     return f'''<section class="content-section page-wrap gta-feature-section"><div class="section-heading"><div><span class="eyebrow">DOSSIER ESPECIAL</span><h2>TODO SOBRE GTA VI</h2><p>{esc(intro)}</p></div><a class="button button-primary" href="{rel(depth,'gta-6/')}">Explorar GTA VI <span aria-hidden="true">↗</span></a></div><div class="gta-feature-grid">{''.join(card(a,depth) for a in items)}</div></section>'''
 
+GTA6_FEATURED_SLUGS = (
+    "todo-sobre-gta-6",
+    "mapa-gta-6",
+    "gta-6-waink-it-app-coches",
+    "gta-6-vida-cotidiana-detalles-mundo",
+)
+
+GTA6_SECTION_INFO = (
+    ("actualidad", "Actualidad y novedades", "Anuncios, contexto y lecturas para seguir la conversación alrededor de GTA VI."),
+    ("plataformas", "Plataformas y acceso", "Información sobre versiones, compatibilidad y cómo seguir los datos oficiales."),
+    ("guias", "Guías y jugabilidad", "Consejos, sistemas y mecánicas reunidos en un espacio pensado para consultar."),
+    ("lugares", "Leonida: mapa y lugares", "Regiones, ciudades y espacios del mundo abierto presentados en el juego."),
+    ("personajes", "Personajes y relaciones", "Perfiles y lecturas sobre Jason, Lucia y el reparto de Leonida."),
+    ("vehiculos", "Vehículos y movilidad", "Coches, transporte y vehículos acuáticos que aparecen en los artículos del portal."),
+    ("analisis", "Análisis y mundo", "Lecturas editoriales sobre diseño, ritmo y detalles del mundo de GTA VI."),
+    ("secretos", "Secretos y curiosidades", "Descubrimientos, pistas y contenidos que distinguen confirmaciones de teorías."),
+)
+
+def gta6_section_key(item):
+    slug = item["slug"]
+    cluster = item.get("cluster", "").casefold()
+    if cluster == "guías" or slug in {
+        "actividades-misiones-gta-6", "trucos-gta-6-codigos", "ganar-dinero-gta-6",
+        "robos-gta-6-guia", "guardar-partida-gta-6", "consejos-primeras-horas-gta-6",
+        "misiones-gta-6-capitulos", "accesibilidad-gta-6-ajustes",
+        "gta-6-controles-clasicos-configurar", "gta-6-primera-persona-camara",
+        "gta-6-viaje-rapido-transporte",
+    }:
+        return "guias"
+    if cluster == "personajes" or slug == "personajes-gta-6":
+        return "personajes"
+    if slug in {"lugares-secretos-gta-6", "gta-6-easter-egg-little-sam"} or cluster == "secretos":
+        return "secretos"
+    if cluster == "lugares" or slug in {
+        "mapa-gta-6", "lugares-identificados-gta-6", "vice-city-gta-6",
+        "mundo-abierto-gta-6", "animales-fauna-gta-6",
+    }:
+        return "lugares"
+    if cluster == "vehículos" or slug in {
+        "vehiculos-gta-6", "gta-6-coches-rapidos-estadisticas",
+        "gta-6-vehiculos-ultimate-edition", "gta-6-barcos-acuaticos-confirmados",
+    }:
+        return "vehiculos"
+    if cluster == "análisis" or slug in {
+        "novedades-gta-6-frente-gta-5", "gta-6-duracion-historia-cuanto-se-tarda",
+        "gta-6-vida-cotidiana-detalles-mundo", "gta-6-analisis-reviews-lanzamiento",
+        "gta-6-redes-sociales-telefono-satira", "gta-6-detalles-analisis-lanzamiento",
+    }:
+        return "analisis"
+    if slug in {"gta-6-ps5-xbox", "gta-6-pc", "precio-ediciones-gta-6"}:
+        return "plataformas"
+    return "actualidad"
+
+def gta6_card(item, depth):
+    if item["slug"] == "gta-6-easter-egg-little-sam":
+        item = {
+            **item,
+            "cover_image": "assets/images/covers/gta-secrets.webp",
+            "image_alt": "Imagen de GTA VI con motoristas en un entorno industrial; ilustración temática, no prueba del easter egg.",
+        }
+    return card(item, depth)
+
+def gta6_category_body(items, depth, title, description, related_categories):
+    items_by_slug = {item["slug"]: item for item in items}
+    featured = [items_by_slug[slug] for slug in GTA6_FEATURED_SLUGS if slug in items_by_slug]
+    if len(featured) != len(GTA6_FEATURED_SLUGS):
+        raise ValueError("A featured GTA VI article is missing from the category.")
+    featured_slugs = {item["slug"] for item in featured}
+    remaining = [item for item in items if item["slug"] not in featured_slugs]
+    grouped = {key: [] for key, _, _ in GTA6_SECTION_INFO}
+    for item in remaining:
+        grouped[gta6_section_key(item)].append(item)
+
+    topic_count = sum(bool(grouped[key]) for key, _, _ in GTA6_SECTION_INFO)
+    topic_links = "".join(
+        f'<a href="#gta6-{key}">{esc(label)}<span>{len(grouped[key]):02d}</span></a>'
+        for key, label, _ in GTA6_SECTION_INFO if grouped[key]
+    )
+    topic_sections = []
+    for position, (key, label, intro) in enumerate(GTA6_SECTION_INFO, 1):
+        section_items = grouped[key]
+        if not section_items:
+            continue
+        topic_sections.append(
+            f'<section class="gta6-topic-section" id="gta6-{key}" aria-labelledby="gta6-{key}-title">'
+            f'<header class="gta6-section-heading"><div><span class="gta6-section-number">{position:02d} / {len(section_items):02d} ARTÍCULOS</span>'
+            f'<h2 id="gta6-{key}-title">{esc(label)}</h2><p>{esc(intro)}</p></div>'
+            f'<a class="gta6-back-to-top" href="#contenido">Volver arriba <span aria-hidden="true">↑</span></a></header>'
+            f'<div class="gta6-card-grid">{"".join(gta6_card(item, depth) for item in section_items)}</div></section>'
+        )
+
+    feature_markup = (
+        f'<div class="gta6-featured-grid"><div class="gta6-featured-lead">{gta6_card(featured[0], depth)}</div>'
+        f'<div class="gta6-featured-rail">{"".join(gta6_card(item, depth) for item in featured[1:])}</div></div>'
+    )
+    return f'''<main id="contenido" class="gta6-page">
+{breadcrumbs([(title,None)],depth)}
+<section class="gta6-hero" aria-labelledby="gta6-title"><img class="gta6-hero-image" src="{rel(depth,'assets/images/covers/gta-vice-city.webp')}" alt="Jason y Lucia frente al skyline de Vice City en una imagen promocional de GTA VI." width="1600" height="900" fetchpriority="high"><div class="gta6-hero-content"><span class="gta6-kicker">REVISTA DIGITAL · DOSSIER ESPECIAL</span><h1 id="gta6-title"><span>GTA</span> <em>VI</em></h1><p>{esc(description)}</p><div class="gta6-hero-meta"><span>{len(items):02d} ARTÍCULOS</span><span>{topic_count:02d} TEMAS</span></div><div class="gta6-hero-actions"><a class="button button-primary" href="#gta6-featured">Explorar la edición <span aria-hidden="true">↘</span></a><a class="gta6-text-link" href="#gta6-topics">Ver secciones</a></div></div><span class="gta6-hero-caption">LEONIDA · GRAND THEFT AUTO VI</span></section>
+<section class="page-wrap gta6-featured" id="gta6-featured" aria-labelledby="gta6-featured-title"><div class="gta6-section-heading"><div><span class="gta6-section-number">EN PORTADA</span><h2 id="gta6-featured-title">Historias para entrar en Leonida</h2><p>Una selección de guías y reportajes de la biblioteca de GTA VI.</p></div><span class="gta6-featured-mark" aria-hidden="true">L / U</span></div>{feature_markup}</section>
+<section class="page-wrap gta6-topic-index" id="gta6-topics" aria-label="Índice de temas"><div class="gta6-index-intro"><span class="gta6-section-number">ÍNDICE EDITORIAL</span><h2>Explora por tema</h2></div><nav class="gta6-topic-nav" aria-label="Secciones de GTA VI">{topic_links}</nav></section>
+<div class="page-wrap gta6-ad-slot">{ad_slot("category_mid")}</div>
+<div class="page-wrap gta6-archive">{"".join(topic_sections)}</div>
+<section class="page-wrap gta6-related"><div><span class="gta6-section-number">SIGUE EXPLORANDO</span><h2>LEVELUP DAILY</h2></div><div class="topic-links">{related_categories}</div></section>
+</main>'''
+
 def category_page(slug):
     depth=1
     title,description=CATEGORIES[slug]
@@ -318,27 +424,25 @@ def category_page(slug):
         "rankings":["videojuegos","anime","gta-6"],"curiosidades":["videojuegos","gta-6","anime"],"guias":["videojuegos","tecnologia","gta-6"],
         "tecnologia":["pc-gaming","guias","videojuegos"]
     }
-    recommended=items[1:4]
-    latest=items[1:7]
-    remaining=items[7:]
-    gta_cluster_html=""
-    if slug=="gta-6":
-        clusters=defaultdict(list)
-        for item in items:
-            clusters[item.get("cluster", "GTA VI")].append(item)
-        cluster_cards=[]
-        for cluster,cluster_items in sorted(clusters.items(),key=lambda pair:pair[0].casefold()):
-            links="".join(f'<li><a href="{rel(depth,article_path(item))}">{esc(item["title"])}</a></li>' for item in cluster_items)
-            cluster_cards.append(f'<section class="gta-topic-card"><h3>{esc(cluster.title())}</h3><ul>{links}</ul></section>')
-        gta_cluster_html=f'<section class="gta-topic-hub"><div class="listing-intro"><span class="eyebrow">DOSSIER GTA VI</span><h2>Guías y análisis por tema</h2><p>Atajos a las guías de juego, personajes, lugares de Leonida, vehículos, secretos y análisis. Las páginas distinguen hechos confirmados de teorías.</p></div><div class="gta-topic-grid">{"".join(cluster_cards)}</div></section>'
     related_categories="".join(f'<a class="topic-chip" href="{rel(depth,target+"/")}">{esc(CATEGORIES[target][0])}<span aria-hidden="true">↗</span></a>' for target in crosslinks.get(slug,[]) if target in CATEGORIES)
-    feature=card(featured,depth) if featured else ""
-    recommended_html="".join(f'<li><a href="{rel(depth,article_path(item))}">{esc(item["title"])}<span>↗</span></a></li>' for item in recommended)
-    latest_html="".join(card(a,depth) for a in latest)
-    more_html="".join(card(a,depth) for a in remaining)
-    body=f'''<main id="contenido" class="page-wrap listing-page">{breadcrumbs([(title,None)],depth)}<header class="category-hero"><span class="eyebrow">PORTAL EDITORIAL / {len(items):02d} LECTURAS</span><h1>{esc(title)}</h1><p>{esc(description)}</p>{'<a class="button button-primary" href="'+rel(depth,article_path(featured))+'">Lectura destacada <span aria-hidden="true">↗</span></a>' if featured else ''}</header>{gta_cluster_html}<section class="category-portal"><div class="category-feature">{feature}</div><aside class="category-recommended"><span class="eyebrow">PARA SEGUIR LEYENDO</span><h2>Recomendados</h2><ol>{recommended_html}</ol></aside></section>{ad_slot("category_mid")}<section class="category-section"><div class="listing-intro"><span class="eyebrow">RECIÉN REVISADOS</span><h2>Últimas publicaciones</h2><p>Ordenadas por última actualización. Cada artículo muestra la fecha de revisión.</p></div><div class="story-grid">{latest_html}</div></section><section class="category-section"><div class="listing-intro"><span class="eyebrow">ARCHIVO EDITORIAL</span><h2>Todos los artículos de {esc(title)}</h2><p>Explora la biblioteca por tema y formato.</p></div><div class="story-grid" data-progressive-grid>{more_html}</div><button class="button button-quiet load-more" type="button" data-load-more hidden>Mostrar más artículos <span aria-hidden="true">↓</span></button></section><section class="category-links"><div class="listing-intro"><span class="eyebrow">EXPLORA MÁS</span><h2>Temas relacionados</h2></div><div class="topic-links">{related_categories}</div></section></main>'''
+    if slug=="gta-6":
+        body=gta6_category_body(items,depth,title,description,related_categories)
+    else:
+        recommended=items[1:4]
+        latest=items[1:7]
+        remaining=items[7:]
+        feature=card(featured,depth) if featured else ""
+        recommended_html="".join(f'<li><a href="{rel(depth,article_path(item))}">{esc(item["title"])}<span>↗</span></a></li>' for item in recommended)
+        latest_html="".join(card(a,depth) for a in latest)
+        more_html="".join(card(a,depth) for a in remaining)
+        body=f'''<main id="contenido" class="page-wrap listing-page">{breadcrumbs([(title,None)],depth)}<header class="category-hero"><span class="eyebrow">PORTAL EDITORIAL / {len(items):02d} LECTURAS</span><h1>{esc(title)}</h1><p>{esc(description)}</p>{'<a class="button button-primary" href="'+rel(depth,article_path(featured))+'">Lectura destacada <span aria-hidden="true">↗</span></a>' if featured else ''}</header><section class="category-portal"><div class="category-feature">{feature}</div><aside class="category-recommended"><span class="eyebrow">PARA SEGUIR LEYENDO</span><h2>Recomendados</h2><ol>{recommended_html}</ol></aside></section>{ad_slot("category_mid")}<section class="category-section"><div class="listing-intro"><span class="eyebrow">RECIÉN REVISADOS</span><h2>Últimas publicaciones</h2><p>Ordenadas por última actualización. Cada artículo muestra la fecha de revisión.</p></div><div class="story-grid">{latest_html}</div></section><section class="category-section"><div class="listing-intro"><span class="eyebrow">ARCHIVO EDITORIAL</span><h2>Todos los artículos de {esc(title)}</h2><p>Explora la biblioteca por tema y formato.</p></div><div class="story-grid" data-progressive-grid>{more_html}</div><button class="button button-quiet load-more" type="button" data-load-more hidden>Mostrar más artículos <span aria-hidden="true">↓</span></button></section><section class="category-links"><div class="listing-intro"><span class="eyebrow">EXPLORA MÁS</span><h2>Temas relacionados</h2></div><div class="topic-links">{related_categories}</div></section></main>'''
     schema={"@context":"https://schema.org","@graph":[{"@type":"CollectionPage","name":title,"description":description,"url":BASE_URL+"/"+slug+"/","mainEntity":{"@type":"ItemList","itemListElement":[{"@type":"ListItem","position":i+1,"url":BASE_URL+"/"+article_path(a)} for i,a in enumerate(items)]}},breadcrumb_schema([("Inicio",""),(title,slug+"/")])]}
-    return page_shell(f"{title}: noticias y guías | LEVELUP DAILY",description,slug+"/",SOCIAL_IMAGE,depth,body,schema,ads_eligible=True)
+    page=page_shell(f"{title}: noticias y guías | LEVELUP DAILY",description,slug+"/",SOCIAL_IMAGE,depth,body,schema,ads_eligible=True)
+    if slug=="gta-6":
+        page=page.replace("<body>","<body class=\"gta6-body\">",1)
+        gta6_stylesheet=f'<link rel="stylesheet" href="{rel(depth,"assets/css/gta-6.css")}">'
+        return page.replace("</head>",gta6_stylesheet+"</head>",1)
+    return page
 
 def article_page(item):
     depth=2
