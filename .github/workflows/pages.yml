@@ -28,10 +28,11 @@ jobs:
         run: |
           python scripts/build.py
           python scripts/audit_generated.py
+          python scripts/audit_pages.py
       - name: Assemble Pages artifact
         run: |
           mkdir _site
-          cp -a index.html 404.html robots.txt sitemap.xml .nojekyll assets gta-6 videojuegos playstation xbox pc-gaming nintendo anime manga rankings guias tecnologia sobre-nosotros contacto politica-de-privacidad politica-de-cookies aviso-legal politica-editorial buscar _site/
+          cp -a index.html 404.html robots.txt sitemap.xml .nojekyll assets gta-6 videojuegos playstation xbox pc-gaming nintendo anime manga curiosidades rankings guias tecnologia sobre-nosotros contacto politica-de-privacidad politica-de-cookies aviso-legal politica-editorial buscar _site/
           python - <<'PY'
           import json, pathlib, shutil
           from urllib.parse import urlparse
@@ -44,6 +45,7 @@ jobs:
           if public and configured and pathlib.Path("ads.txt").is_file():
               shutil.copy2("ads.txt", "_site/ads.txt")
           PY
+          python scripts/audit_pages.py _site
       - uses: actions/upload-pages-artifact@v4
         with:
           path: _site

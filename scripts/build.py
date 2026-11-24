@@ -51,6 +51,12 @@ BASE_URL = SITE["base_url"].rstrip("/")
 _base_parts = urlparse(BASE_URL)
 PUBLIC_SITE = bool(_base_parts.scheme == "https" and _base_parts.netloc and "." in _base_parts.netloc and not any(token in BASE_URL.lower() for token in ("tu-usuario", "example.com", "localhost", "pendiente")))
 SOCIAL_IMAGE = "assets/images/og-cover.webp"
+GTM_INSTALLATION = """<script async src="https://www.googletagmanager.com/gtm.js?id=GTM-KC2GX2KQ"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+</script>"""
 CATEGORIES = {
     "gta-6": ("GTA VI", "Noticias, guías y contexto de GTA VI. Fechas, plataformas y datos separados de las especulaciones."),
     "videojuegos": ("Videojuegos", "Noticias, análisis, recomendaciones y guías para elegir tu próxima partida."),
@@ -192,7 +198,9 @@ def common_head(title: str, description: str, canonical: str, image: str, depth:
     verification_tag = f'<meta name="google-site-verification" content="{esc(verification_token)}">' if canonical == "" and verification_token else ""
     social_tags=(f'<meta property="og:url" content="{esc(canonical_url)}"><meta property="og:image" content="{esc(img)}"><meta name="twitter:image" content="{esc(img)}">') if PUBLIC_SITE else ""
     schema_tag=f'<script type="application/ld+json">{schema}</script>' if schema else ""
-    return f'''<!doctype html><html lang="es"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+    return f'''<!doctype html><html lang="es"><head>
+{GTM_INSTALLATION}
+<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
 <title>{esc(title)}</title><meta name="description" content="{esc(description)}"><meta name="robots" content="{robots}">
 {canonical_tag}{verification_tag}<link rel="icon" type="image/svg+xml" href="{rel(depth,'assets/images/favicon.svg')}"><meta name="theme-color" content="#0b0d12">
 <meta property="og:type" content="{og_type}"><meta property="og:site_name" content="{esc(SITE['name'])}"><meta property="og:title" content="{esc(title)}"><meta property="og:description" content="{esc(description)}"><meta name="twitter:card" content="summary_large_image"><meta name="twitter:title" content="{esc(title)}"><meta name="twitter:description" content="{esc(description)}">{social_tags}
